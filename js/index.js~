@@ -6,10 +6,10 @@ function user_input() {
     var password = A("password").value;
 
     var str = "";
-    if (name.length < 4) {
+    if (name.length < 1) {
         str += "用户名长度必须大于6个字符。";
     }
-            if (password.length < 4) {
+            if (password.length < 1) {
                 str += "\n密码长度必须大于8个字符。"
             }
             if (str.length > 5) {

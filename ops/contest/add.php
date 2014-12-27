@@ -133,7 +133,7 @@
                             <input type="submit" class="default" value="Submit" />
                         </div>
                         <div class="span1 offset2">
-                            <input type="button" value="Cancel" />
+                            <a href="index.php"><input type="button" value="Cancel" /></a>
                         </div>
                     </div>
                 </div>

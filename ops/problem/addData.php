@@ -10,10 +10,10 @@
 		$out = $_POST['out'];
 		$path = DATA_PATH . '/' . $pid;
 		$scan = scandir($path);
-		$cnt = count($scan) / 2;
-		$i = $path . '/in' . $cnt . '.txt';
+		$cnt = floor((count($scan)+1) / 2);
+		$i = $path . '/test' . $cnt . '.in';
 		file_put_contents($i, $in) or die("Error for Input file.") ;
-		$o = $path . '/out' . $cnt . '.txt';
+		$o = $path . '/test' . $cnt . '.out';
 		file_put_contents($o, $out) or die("Error for Output file.");
 		$msg = "Create success.";
 	}

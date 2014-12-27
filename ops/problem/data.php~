@@ -3,16 +3,6 @@
 	include ('../../conf.php');
 	$msg = '';
 	$cnt = 0;
-	if (isset($_GET['path'])){
-		$path = $_GET['path'];
-		if (file_exists($path)){
-			unlink($path);
-			$msg = "Delete success.";
-		} else {
-			$msg = "File Not Exists.";
-			exit();
-		}
-	}
 	if (isset($_GET['pid'])){
 	
 		$pid = $_GET['pid'];
@@ -23,7 +13,15 @@
 			@chmod($path,0777);
 		}
 	}
-		
+	if (isset($_GET['path'])){
+		$path = $_GET['path'];
+		if (file_exists($path)){
+			unlink($path);
+			$msg = "Delete success.";
+		} else {
+			$msg = "File Not Exists.";
+		}
+	}
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -39,7 +37,7 @@
 				<div class="element">
 					<p>Tools</p>
 				</div>
-				<span class="element-divider"></span>/
+				<span class="element-divider"></span>
 				<a class="element brand" href='addData.php?pid=<?php echo $pid; ?>'>添加</a>
 			</nav>
 		</nav>

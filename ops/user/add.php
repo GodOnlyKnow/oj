@@ -112,7 +112,7 @@
                             <input type="submit" class="default" value="Submit" />
                         </div>
                         <div class="span1 offset2">
-                            <input type="button" value="Cancel" />
+                            <a href="index.php?lmark=13,14,15"><input type="button" value="Cancel" /></a>
                         </div>
                     </div>
                 </div>
