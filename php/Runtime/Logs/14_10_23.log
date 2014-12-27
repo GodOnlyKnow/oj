@@ -1,0 +1,32 @@
+[ 2014-10-23T09:07:07+08:00 ] 0.0.0.0 /php/index.php/Contest/Index/form
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000367s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\www\php\ThinkPHP\Lib\Driver\Db\DbMysql.class.php ç¬¬ 55 è¡Œ.
+SQL: SHOW COLUMNS FROM `contest` [ RunTime:0.346918s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\www\php\ThinkPHP\Lib\Core\Db.class.php ç¬¬ 604 è¡Œ.
+SQL: SELECT * FROM `contest` WHERE ( `cid` = 2 )  [ RunTime:0.341514s ]
+NOTIC: [8] Undefined index: item F:\www\php\php\Lib\Action\Contest\IndexAction.class.php ç¬¬ 32 è¡Œ.
+
+[ 2014-10-23T09:07:17+08:00 ] 0.0.0.0 /php/index.php/Contest/Index/form
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000396s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000437s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\www\php\ThinkPHP\Lib\Driver\Db\DbMysql.class.php ç¬¬ 55 è¡Œ.
+SQL: SHOW COLUMNS FROM `contest` [ RunTime:0.349810s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\www\php\ThinkPHP\Lib\Core\Db.class.php ç¬¬ 604 è¡Œ.
+SQL: SELECT * FROM `contest` WHERE ( `cid` = 1 )  [ RunTime:0.347408s ]
+
+[ 2014-10-23T16:21:27+08:00 ] 0.0.0.0 /php/index.php/Contest/Index/index
+ERR: ÓÉÓÚÁ¬½Ó·½ÔÚÒ»¶ÎÊ±¼äºóÃ»ÓÐÕýÈ·´ð¸´»òÁ¬½ÓµÄÖ÷»úÃ»ÓÐ·´Ó¦£¬Á¬½Ó³¢ÊÔÊ§°Ü¡£
+
+
+[ 2014-10-23T18:05:40+08:00 ] 0.0.0.0 /php/index.php/Contest/Index/form
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001142s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001286s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\www\php\ThinkPHP\Lib\Driver\Db\DbMysql.class.php ç¬¬ 55 è¡Œ.
+SQL: SHOW COLUMNS FROM `contest` [ RunTime:0.001960s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\www\php\ThinkPHP\Lib\Core\Db.class.php ç¬¬ 604 è¡Œ.
+SQL: SELECT * FROM `contest` WHERE ( `cid` = 1 )  [ RunTime:0.001119s ]
+

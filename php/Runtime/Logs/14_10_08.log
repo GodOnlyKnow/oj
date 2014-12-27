@@ -1,0 +1,33 @@
+[ 2014-10-08T10:22:06+08:00 ] 0.0.0.0 /php/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000392s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000464s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\www\php\ThinkPHP\Lib\Driver\Db\DbMysql.class.php ç¬¬ 55 è¡Œ.
+NOTIC: [2] mysql_connect():  F:\www\php\ThinkPHP\Lib\Driver\Db\DbMysql.class.php ç¬¬ 55 è¡Œ.
+ERR: ÓÉÓÚÁ¬½Ó·½ÔÚÒ»¶ÎÊ±¼äºóÃ»ÓÐÕýÈ·´ð¸´»òÁ¬½ÓµÄÖ÷»úÃ»ÓÐ·´Ó¦£¬Á¬½Ó³¢ÊÔÊ§°Ü¡£
+
+
+[ 2014-10-08T10:22:32+08:00 ] 0.0.0.0 /php/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000400s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\www\php\ThinkPHP\Lib\Driver\Db\DbMysql.class.php ç¬¬ 55 è¡Œ.
+NOTIC: [2] mysql_connect():  F:\www\php\ThinkPHP\Lib\Driver\Db\DbMysql.class.php ç¬¬ 55 è¡Œ.
+ERR: ÓÉÓÚÁ¬½Ó·½ÔÚÒ»¶ÎÊ±¼äºóÃ»ÓÐÕýÈ·´ð¸´»òÁ¬½ÓµÄÖ÷»úÃ»ÓÐ·´Ó¦£¬Á¬½Ó³¢ÊÔÊ§°Ü¡£
+
+
+[ 2014-10-08T10:22:53+08:00 ] 0.0.0.0 /php/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000791s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000915s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\www\php\ThinkPHP\Lib\Driver\Db\DbMysql.class.php ç¬¬ 55 è¡Œ.
+
+[ 2014-10-08T10:22:53+08:00 ] 0.0.0.0 /php/index.php/Contest/Index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000523s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000610s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\www\php\ThinkPHP\Lib\Core\Dispatcher.class.php ç¬¬ 132 è¡Œ.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000486s ]
+

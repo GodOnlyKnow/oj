@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title></title>
+        <script>
+            window.onload = function () {
+                setTimeout(function () {
+                     window.location.href='<?php echo __APP__; ?>';
+                     }, 5000);
+            }
+        </script>
+    </head>
+    <body>
+        <div>
+        <p>
+        <?php echo $e['message']; ?>
+        </p>
+            <p> 
+                5秒后返回首页或者<a href="<?php echo __APP__; ?>">点击我</a>返回主页
+            </p>
+        </div>
+    </body>
+</html>

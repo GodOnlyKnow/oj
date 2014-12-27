@@ -1,0 +1,72 @@
+<include file="../../Index/Index/Top" title="Contest"/>
+        <div id="contest_bar" style="width: 100%;margin: 0 auto;height: 200px;background: #434343;padding-top: 20px;">
+            <div id="title-info">
+                <div id="contest-name" style="">
+                    <h1 class="contestname">{$contestinfo[0]['name']}</h1>
+                </div>
+                <div id="time-info" style="padding: 5px 0 5px 0;">
+                    <div style="text-align: center">
+                        <span style="color:#4EA1F4">Current Time:</span><span style="color: #fff;" id="currenttime"></span>
+                        <span style="color:#4EA1F4">Start Time:</span><span style="color: #fff">{$contestinfo[0]['start_time']}</span>
+                        <span style="color:#4EA1F4">End Time:</span><span style="color: #fff">{$contestinfo[0]['end_time']}</span>
+                        <span style="color:#4EA1F4">Contest Status:</span><span style="color: #00ff21">{$contestinfo[0]['sta']}</span>
+                    </div>
+                </div>
+                <div class="progress" style="width: 80%;margin: 0 auto;height: 40px;border-radius: 40px;">
+                    <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" id="processbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="">
+                </div>
+                </div>
+            </div>
+        </div>
+        
+        <div id="contest-info" style="width: 80%;height: auto;background: #e0dede; left:50%;margin-left: -40%; border-radius: 20px 20px 0 0;position: absolute;top: 150px">
+            <ul class="nav nav-tabs " role="tablist" style="margin: 5px 0 0 5px;">
+              <li role="presentation" class="active"><a href="#">Overview</a></li>
+              <li role="presentation" class=""><a href='{:U("Index/report","","")}?pid={$v.newid}&cid={$contestinfo[0]["cid"]}'>Report<span class="badge"></span></a></li>
+              <li role="presentation" class=""><a href='{:U("Index/clarify","","")}?cid={$contestinfo[0]["cid"]}'>Clarify</a></li>
+              <li role="presentation" class=""><a href='{:U("Index/problem","","")}?pid=A&cid={$contestinfo[0]["cid"]}'>Problems</a></li>
+              <li role="presentation" class=""><a href='{:U("Index/status","","")}?cid={$contestinfo[0]["cid"]}'>Status</a></li>
+              <li role="presentation"><a href='{:U("Index/rank","","")}?cid={$contestinfo[0]["cid"]}'>Rank</a></li>
+              <li role="presentation"><a href='{:U("Index/prin","","")}?cid={$contestinfo[0]["cid"]}'>Print</a></li>
+            </ul>
+            
+            <?php if($isrunning==2) echo'
+            <h3 class="notstart">Not start yet!</h3>
+            <h3 class="notstart">Start at <span style="color: #ff6a00">'.$contestinfo[0]["start_time"].'</span></h3>
+            ';
+            else echo'
+            <table class="altrowstable" id="alternatecolor" style="width: 100%;">
+            <tr>
+                <th class="id">ID</th>
+                <th class="name">Title</th>
+                <th class="time">AC</th>
+            </tr>';
+            foreach($data as $row=>$each)
+            echo '
+            <tr>
+                <td class="id">'.$data[$row]["newid"].'</td>
+                <td class="name"><a href="'.U("Contest/Index/problem", '', '').'?pid='.$data[$row]["newid"].'&cid='.$contestinfo[0]['cid'].'">'.$data[$row]["newname"].'</a></td>
+                <td>'.$data[$row]["accpet"].'/'.$data[$row]["submit"].'</td>
+            </tr>
+            
+            '?>
+        </table>
+            <div class="jumbotron">
+              <p>{$contestinfo[0]['desci']}</p>
+            </div>
+        </div>
+        
+                <script type="text/ecmascript">
+            var start_time="{$contestinfo[0]['startinunix']}";
+            var len="{$contestinfo[0]['len']}";
+            var problemUrl = '{:U("Contest/Index/problem", '', '')}';
+            var countUrl ='{:U("Contest/Index/newscount", '', '')}';
+            var cid="{$contestinfo[0]['cid']}";
+        </script>
+        <script src="__PUBLIC__/Js/jquery-1.10.2.min.js"></script>
+        <script src="__PUBLIC__/Js/loop.js"></script>
+        <script src="__PUBLIC__/Js/jquery-ui.min.js"></script>
+        <link href="__PUBLIC__/Css/bootstrap-theme.min.css" rel="stylesheet">
+        <link href="__PUBLIC__/Css/problemlist.css" rel="stylesheet">
+    </body>
+</html>

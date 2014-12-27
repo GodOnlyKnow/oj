@@ -1,0 +1,59 @@
+table.altrowstable {
+	font-size:15px;
+	color:#557eb2;
+	border-color: #000;
+	border-collapse: collapse;
+}
+table.altrowstable th {
+    text-align: center;
+    background-color:#fff; 
+	border-width: 3px;
+	border-style: solid;
+	border-color: #e0dede;
+}
+table.altrowstable tr {
+    text-align: center;
+    height: 40px;
+}
+table.altrowstable td {
+	border-width: 3px;
+	border-style: solid;
+	border-color: #e0dede;
+    color: #000;
+    text-align: center;
+}
+.oddrowcolor{
+	background-color:#fff;
+}
+.oddcolcolor{
+    background-color:#d3d4d6;
+}
+.evenrowcolor{
+	background-color:#d3f3e3;
+}
+.evencolcolor{
+    background-color:#abd0fb;
+}
+.contestname{
+    text-align: center;
+    color: white;
+    margin: 0;
+}
+.nav-tabs {
+  border-bottom: 3px solid #2C70B4;
+}
+.nav-tabs > li > a {
+  margin-right: 2px;
+  line-height: 1.42857143;
+  border: 1px solid transparent;
+  border-radius: 10px 10px 0 0;
+}
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+  color: #fff;
+  cursor: default;
+  background-color: #2C70B4;
+  border: 1px solid #ddd;
+  border-bottom-color: transparent;
+}

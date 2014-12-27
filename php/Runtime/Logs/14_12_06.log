@@ -1,0 +1,27 @@
+[ 2014-12-06T11:59:06+08:00 ] 0.0.0.0 /php/index.php/Contest/Index/form
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000353s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\www\php\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `contest` [ RunTime:0.845803s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\www\php\ThinkPHP\Lib\Core\Db.class.php 第 604 行.
+SQL: SELECT * FROM `contest` WHERE ( `cid` = 6 )  [ RunTime:0.050194s ]
+
+[ 2014-12-06T14:03:59+08:00 ] 0.0.0.0 /php/index.php/Contest/Index/form
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000377s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\www\php\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `contest` [ RunTime:0.002743s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\www\php\ThinkPHP\Lib\Core\Db.class.php 第 604 行.
+SQL: SELECT * FROM `contest` WHERE ( `cid` = 6 )  [ RunTime:0.000330s ]
+
+[ 2014-12-06T14:03:59+08:00 ] 0.0.0.0 /php/index.php/Contest/Index/form
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000710s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000788s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\www\php\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `contest` [ RunTime:0.033581s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\www\php\ThinkPHP\Lib\Core\Db.class.php 第 604 行.
+SQL: SELECT * FROM `contest` WHERE ( `cid` = 6 )  [ RunTime:0.000340s ]
+

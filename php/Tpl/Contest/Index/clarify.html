@@ -1,0 +1,97 @@
+<include file="../../Index/Index/Top" title="Contest"/>
+        <div id="contest_bar" style="width: 100%;margin: 0 auto;height: 200px;background: #434343;padding-top: 20px;">
+            <div id="title-info">
+                <div id="contest-name" style="">
+                    <h1 class="contestname">{$contestinfo[0]['name']}</h1>
+                </div>
+                <div id="time-info" style="padding: 5px 0 5px 0;">
+                    <div style="text-align: center">
+                        <span style="color:#4EA1F4">Current Time:</span><span style="color: #fff;" id="currenttime"></span>
+                        <span style="color:#4EA1F4">Start Time:</span><span style="color: #fff">{$contestinfo[0]['start_time']}</span>
+                        <span style="color:#4EA1F4">End Time:</span><span style="color: #fff">{$contestinfo[0]['end_time']}</span>
+                        <span style="color:#4EA1F4">Contest Status:</span><span style="color: #00ff21">{$contestinfo[0]['sta']}</span>
+                    </div>
+                </div>
+                <div class="progress" style="width: 80%;margin: 0 auto;height: 40px;border-radius: 40px;">
+                    <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" id="processbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="">
+                </div>
+                </div>
+            </div>
+        </div>
+        <div id="contest-info" style="width: 80%;height: auto;background: #e0dede; left:50%;margin-left: -40%; border-radius: 20px 20px 0 0;position: absolute;top: 150px">
+            <ul class="nav nav-tabs " role="tablist" style="margin: 5px 0 0 5px;">
+              <li role="presentation" class=""><a href='{:U("Index/problemlist","","")}?cid={$contestinfo[0]["cid"]}'>Overview</a></li>
+              <li role="presentation" class=""><a href='{:U("Index/report","","")}?pid={$v.newid}&cid={$contestinfo[0]["cid"]}'>Report<span class="badge"></span></a></li>
+              <li role="presentation" class="active"><a href='{:U("Index/clarify","","")}?cid={$contestinfo[0]["cid"]}'>Clarify</a></li>
+              <li role="presentation" class=""><a href='{:U("Index/problem","","")}?pid=A&cid={$contestinfo[0]["cid"]}'>Problems</a></li>
+              <li role="presentation" class=""><a href='{:U("Index/status","","")}?cid={$contestinfo[0]["cid"]}'>Status</a></li>
+              <li role="presentation" class=""><a href='#'>Rank</a></li>
+              <li role="presentation"><a href='{:U("Index/prin","","")}?cid={$contestinfo[0]["cid"]}'>Print</a></li>
+            </ul>
+            <div class="replay" style="margin-top: 15px;">
+            <?php $count=1; ?>
+            <foreach name="replay" item="v">
+                <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                  <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="headingOne">
+                      <h4 class="panel-title">
+                        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse<?php echo $count; ?>" aria-expanded="false" aria-controls="collapse<?php echo $count; ?>">
+                             {$v['title']}
+                        </a>
+                      </h4>
+                    </div>
+                    <div id="collapse<?php echo $count; ?>" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading<?php echo $count; ?>">
+                      <div class="panel-body" style="word-break:break-all" >
+                         {$v['context']}<br />
+                         {$v['author']} in {$v['create_time']}
+                         <hr style="margin-top: 1px;margin-bottom: 15px;" />
+                        <?php
+                         $re=$v['replay'];
+                         $len=count($re);
+                         for($i=0;$i < $len;$i++){
+                             echo' '.$re[$i]['context'].'<br />';
+                             echo  $re[$i]['username'].' in '.$re[$i]['create_time'];
+                             echo  '<hr style="margin-top: 1px;margin-bottom: 15px;" />';
+                          }
+                        ?>
+                        <div class="input-group">
+                           <textarea style="resize:none"  id="text<?php echo $count; ?>" class="form-control" placeholder="Replay"></textarea>
+                          <span onclick="replay({$v['cfid']},<?php echo $count; ?>)" class="input-group-addon">Replay</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>  
+            <?php $count++; ?>   
+            </foreach>
+           </div>
+            <div class="input-group">
+               <textarea style="resize:none"  id="til" class="form-control" placeholder="Title"></textarea>
+               <textarea style="resize:none"  id="con" class="form-control" placeholder="Context"></textarea>
+               <span onclick="publish({$contestinfo[0]['cid']})" class="input-group-addon">Publish</span>
+          </div>
+
+        </div>
+    <script>
+        function fun(id) {
+            $(".pan" + id).slideToggle("fast");
+            if ($('#' + id).hasClass('glyphicon-plus-sign')) $('#' + id).removeClass().addClass('glyphicon glyphicon-minus-sign');
+            else $('#' + id).removeClass().addClass('glyphicon glyphicon-plus-sign');
+        }    
+    </script>
+    <script type="text/ecmascript">
+            var start_time = "{$contestinfo[0]['startinunix']}";
+            var len = "{$contestinfo[0]['len']}";
+            var conid = '{$contestinfo[0]["cid"]}';
+            var replayUrl ='{:U("Index/replay","","")}';
+            var countUrl ='{:U("Contest/Index/newscount", '', '')}';
+            var cid="{$contestinfo[0]['cid']}";
+        </script>
+        <script src="__PUBLIC__/Js/jquery-1.10.2.min.js"></script>
+        <script src="__PUBLIC__/Js/loop.js"></script>
+        <script src="__PUBLIC__/Js/jquery-ui.min.js"></script>
+        <link href="__PUBLIC__/Css/bootstrap-theme.min.css" rel="stylesheet">
+        <link href="__PUBLIC__/Css/rank.css" rel="stylesheet">
+        <link href="__PUBLIC__/Css/replay.css" rel="stylesheet">
+</html>
+

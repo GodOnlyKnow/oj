@@ -1,0 +1,189 @@
+@CHARSET "UTF-8";
+a:hover{
+	text-decoration:none;
+}
+#topba{
+	background-color:#000000;
+}
+#topmenu{
+	margin-left:40px;
+}
+#topba a{
+	color:#ffffff;
+	font:18px arial;
+}
+.container{
+    width: 80%;
+}
+#topba a:hover{
+	color:#2c70b4;
+}
+#signin{
+	border:0px;
+	background-color:#413e3e;
+	width:250px;
+	color:#ffffff;
+	margin-top:4px;
+	margin-left:50px;
+	padding-left:120px;
+	font:18px arial;
+	margin-right:10px;
+}
+
+.nav > #signba > a{
+	color:#F2F2F2;
+}
+.nav > #signba > a:hover{
+	background-color:#413e3e;
+	color:#ffffff;
+}
+#Brand{
+	margin:20px 60px;
+	cursor:pointer;
+	float:left;
+}
+#cdoj{
+	color:#000000;
+	text-align:right;
+	font:36px arial;
+}
+#neu{
+	color:#474343;
+	font:24px arial;
+}
+#navi{
+	margin-left:30%;
+}
+#navi a{
+	margin:30px 30px 0 30px;
+	color:#000000;
+	font:24px arial;
+}
+#navi a:hover{
+	color:#ffffff;
+	background-color:#2c70b4;
+}
+#navi ul li ul li a{
+	font:18px arial;
+	margin:10px;
+}
+.loginbar{
+	width:380px;
+}
+.registba,.loginba{
+	-moz-box-shadow: 0 0 10px #000;
+	box-shadow: 0 0 10px #000;
+	height:60px;
+	margin:1px;
+	background-color:#2c70b4;
+	font:32px arial;
+	padding-top:12px;
+	padding-left:32px;
+	color:#ffffff;
+}
+#close{
+	margin-left:200px;
+}
+#Xclose{
+	margin-left:250px;
+}
+#close img,#Xclose img{
+	cursor:pointer;
+	width:40px;
+	height:40px;
+}
+
+#loginform .input-group-addon{
+	width:120px;
+	text-align:right;
+	background-color:#ffffff;
+	border:0px;
+	font:16px Helvetica;
+	font-weight:bold;
+
+}
+.input-group{
+	margin-bottom:25px;
+}
+.input-group .error{
+	color:red;
+	font:18px arial;
+	line-height:34px;
+}
+.input-group .form-control{
+	width:210px;
+}
+#rgverify{
+	width:100px;
+	margin-right:30px;
+}
+#verify_code{
+	cursor:pointer;
+}
+.loginline{
+	margin:20px 0;
+	height:2px;
+	background:url(../Image/LoginRegist/line.png);
+}
+
+#loginBtn{
+	margin:0 0px 20px 34px;
+	font:18px Helvetica;
+	width:140px;
+	height:45px;
+	color:#ffffff;
+	background-color:#2c70b4;
+	
+}
+#registBtn{
+	margin:0 0px 20px 34px;
+	color:#ffffff;
+	font:18px Helvetica;
+	width:140px;
+	height:45px;
+}
+.container{
+	padding:0px;
+}
+.Regist-Content{
+	width:450px;
+	left:50%;
+	margin-left:-225px;
+}
+#Registform .input-group-addon{
+	width:160px;
+	text-align:right;
+	background-color:#ffffff;
+	border:0px;
+	font:16px Helvetica;
+	font-weight:bold;
+}
+#Registform .input-group-addon{
+	width:180px;
+	text-align:right;
+	background-color:#ffffff;
+	border:0px;
+	font:16px Helvetica;
+	font-weight:bold;
+}
+.formfirst{
+	margin-top:25px;
+}
+#loginbar .alert{
+	margin-bottom:0px;
+}
+#registedBtn{
+	margin:0 0px 20px 60px;
+	font:18px Helvetica;
+	width:140px;
+	height:45px;
+	color:#ffffff;
+	background-color:#2c70b4;
+}
+#resetBtn{ 
+	margin:0 0px 20px 60px;
+	color:#ffffff;
+	font:18px Helvetica;
+	width:140px;
+	height:45px;
+}

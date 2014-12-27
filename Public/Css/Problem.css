@@ -1,0 +1,152 @@
+@CHARSET "UTF-8";
+body{
+	position:relative;
+}
+.modal-concent{
+	width:50%;
+	height:480px;
+}
+#topline{
+	height:3px;
+	width:100%;
+	margin-bottom:1px;
+	background:rgb(171,171,171);
+}
+#bottombtn{
+	text-align:center;
+}
+#back{
+	text-align:center;
+	border:15px solid transparent;
+	height:241px;
+	background:rgb(50,50,50);
+}
+#pname{
+	font:48px arial;
+	color:#f49d4f;
+}
+#pno{
+	position:relative;
+	left:50%;
+	width:80%;
+	text-align:right;
+	margin-left:-40%;
+	font:24px arial;
+	color:#716565;
+}
+.pnoid{
+	color:#6182e2;
+}
+#limit{
+	margin-top:20px;
+	font:16px arial;
+	color:#d5d2d2;
+}
+.limitdata{
+	margin-right:15px;
+	color:#7dd1d1;
+}
+.btns{
+	margin-top:20px;
+}
+
+
+.Submit{
+	margin-left:10px;
+	width:138px;
+	height:40px;
+}
+.Pre{
+	width:86px;
+	height:40px;
+}
+.Status{
+	margin-left:10px;
+	width:138px;
+	height:40px;
+}
+.Next{
+	margin-left:10px;
+	width:86px;
+	height:40px;
+}
+#back1{
+	position:absolute;
+	left:50%;
+	top:32%;
+	background:rgb(238,238,238);
+}
+.problemTag{
+	height:60px;
+	margin:2px 8px 0 8px;
+	line-height:60px;
+	font:24px arial;
+	color:#ffffff;
+	padding-left:10px;
+	background:rgb(44,112,180);
+}
+.problemTagtext{
+	font:16px arial;
+	line-height:48px;
+	margin:0 8px 25px 8px;
+	background:#ffffff;
+}
+#inoutable{
+	width:100%;
+	text-align:center;
+	line-height:40px;
+}
+#inoutable th{
+	height:40px;
+	border:1px solid #e0dede;
+	text-align:center;
+	font:18px arial;
+}
+#inoutable td{
+	border:1px solid #e0dede;
+}
+
+#submitba{
+	background-color:rgb(50,101,162);
+	font:24px arial;
+	padding:12px 25px;
+	color:#ffffff;
+	margin-bottom:20px;
+	box-shadow:-5px 5px 3px rgb(97,97,97);
+}
+#SubmitContent{
+	width:600px;
+	left:50%;
+	margin-left:-300px;
+}
+.CodeMirror-scroll{
+	border:1px solid rgb(161,161,161) ;
+	width:560px;
+	height:300px;
+	margin:0 20px;
+	cursor:text;
+}
+#btnsgroup{
+	margin:20px 20px;
+}
+.CodeMirror {
+  height: auto;
+}
+.CodeMirror-vscrollbar{
+	overflow:hidden;
+}
+.CodeMirror-gutters{
+	background-color:#ffffff;
+}
+#submitbarBtnbar{
+	margin-left:60%;
+}
+.SubmitbarBtn{
+	font:18px arial;
+	color:#ffffff;
+	border:0px;
+	margin:10px 10px;
+}
+#CancelBtn{
+	background:rgb(179,179,179);
+}

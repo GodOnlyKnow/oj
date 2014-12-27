@@ -1,0 +1,113 @@
+[ 2014-12-13T13:42:06+08:00 ] 0.0.0.0 /php/index.php
+ERR: 无法加载模块:Index
+
+[ 2014-12-13T13:46:31+08:00 ] 0.0.0.0 /php/index.php/Index/Index/handle
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001505s ]
+
+[ 2014-12-13T13:46:49+08:00 ] 0.0.0.0 /php/index.php/Index/Index/handle
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000547s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000604s ]
+
+[ 2014-12-13T13:48:58+08:00 ] 0.0.0.0 /php/index.php/Index/Index/handle
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000404s ]
+
+[ 2014-12-13T13:49:20+08:00 ] 0.0.0.0 /php/index.php/Index/Index/handle
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000363s ]
+
+[ 2014-12-13T14:41:19+08:00 ] 0.0.0.0 /php/index.php/Index/Index/handle
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000570s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000670s ]
+
+[ 2014-12-13T14:41:20+08:00 ] 0.0.0.0 /php/index.php/Index/Index/handle
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000383s ]
+
+[ 2014-12-13T14:41:24+08:00 ] 0.0.0.0 /php/index.php/Index/Index/handle
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000555s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000671s ]
+
+[ 2014-12-13T14:41:40+08:00 ] 0.0.0.0 /php/index.php/Index/Index/handle
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000434s ]
+
+[ 2014-12-13T14:43:25+08:00 ] 0.0.0.0 /php/index.php/Index/Index/handle
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000346s ]
+
+[ 2014-12-13T14:47:43+08:00 ] 0.0.0.0 /php/index.php/Index/Index/handle
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000567s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000633s ]
+
+[ 2014-12-13T14:53:00+08:00 ] 0.0.0.0 /php/index.php/Index/Index/handle
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000762s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000854s ]
+
+[ 2014-12-13T15:37:26+08:00 ] 0.0.0.0 /php/index.php/Index/Index/handle
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000313s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000355s ]
+
+[ 2014-12-13T15:37:31+08:00 ] 0.0.0.0 /php/index.php/Index/Index/handle
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000397s ]
+
+[ 2014-12-13T15:37:36+08:00 ] 0.0.0.0 /php/index.php/Index/Index/handle
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000369s ]
+
+[ 2014-12-13T15:37:42+08:00 ] 0.0.0.0 /php/index.php/Index/Index/handle
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000843s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000981s ]
+
+[ 2014-12-13T15:39:11+08:00 ] 0.0.0.0 /php/index.php/Index/Index/handle
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000381s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000438s ]
+
+[ 2014-12-13T15:59:49+08:00 ] 0.0.0.0 /php/index.php/Index/Index/handle
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000672s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000824s ]
+
+[ 2014-12-13T16:00:05+08:00 ] 0.0.0.0 /php/index.php/Index/Index/handle
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000495s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000566s ]
+
+[ 2014-12-13T16:00:10+08:00 ] 0.0.0.0 /php/index.php/Index/Index/handle
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000846s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000954s ]
+
+[ 2014-12-13T16:02:41+08:00 ] 0.0.0.0 /php/index.php/Index/Index/handle
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000618s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000710s ]
+
+[ 2014-12-13T16:02:44+08:00 ] 0.0.0.0 /php/index.php/Index/Index/handle
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000747s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000841s ]
+
+[ 2014-12-13T16:03:28+08:00 ] 0.0.0.0 /php/index.php/Index/Index/handle
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000529s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000608s ]
+

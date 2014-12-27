@@ -1,0 +1,23 @@
+@CHARSET "UTF-8";
+#BottombarI{
+	background-color:rgb(20,20,20);
+	height:230px;
+	padding-top:50px;
+}
+#BottombaI{
+	float:left;
+	
+	margin-left:10px;
+	font:48px arial;
+}
+#BottombaII{
+	float:left;
+	margin-left:100px;
+	font:24px arial;
+}
+#BottombaIII{
+	float:left;
+	
+	margin-left:100px;
+	font:24px arial;
+}

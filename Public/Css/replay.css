@@ -1,0 +1,27 @@
+.replay{
+   width: 90%;
+   margin: 0 auto;
+}
+.replay div span{
+    font-size: x-large;
+}
+.replay div span:hover{
+    cursor: pointer;
+}
+.replay div .context{
+    padding: 10px;
+}
+.replay div .user{
+    width: 95%;
+    padding: 2px;;
+    margin-left: 5%;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+.replay div .up{
+    width: 95%;
+    padding: 2px;;
+    margin-left: 5%;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}

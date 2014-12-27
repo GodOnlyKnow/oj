@@ -1,0 +1,796 @@
+[ 2014-10-21T18:07:14+08:00 ] 0.0.0.0 /php/index.php/Contest/Index/index
+ERR: ”…”⁄¡¨Ω”∑Ω‘⁄“ª∂Œ ±º‰∫Û√ª”–’˝»∑¥∏¥ªÚ¡¨Ω”µƒ÷˜ª˙√ª”–∑¥”¶£¨¡¨Ω”≥¢ ‘ ß∞‹°£
+
+
+[ 2014-10-21T18:07:30+08:00 ] 0.0.0.0 /php/index.php/Contest/Index/index
+ERR: ”…”⁄¡¨Ω”∑Ω‘⁄“ª∂Œ ±º‰∫Û√ª”–’˝»∑¥∏¥ªÚ¡¨Ω”µƒ÷˜ª˙√ª”–∑¥”¶£¨¡¨Ω”≥¢ ‘ ß∞‹°£
+
+
+[ 2014-10-21T18:07:59+08:00 ] 0.0.0.0 /php/index.php/Contest/Index/index
+ERR: ”…”⁄¡¨Ω”∑Ω‘⁄“ª∂Œ ±º‰∫Û√ª”–’˝»∑¥∏¥ªÚ¡¨Ω”µƒ÷˜ª˙√ª”–∑¥”¶£¨¡¨Ω”≥¢ ‘ ß∞‹°£
+
+
+[ 2014-10-21T18:08:53+08:00 ] 0.0.0.0 /php/index.php/Contest/Index/index
+ERR: ”…”⁄¡¨Ω”∑Ω‘⁄“ª∂Œ ±º‰∫Û√ª”–’˝»∑¥∏¥ªÚ¡¨Ω”µƒ÷˜ª˙√ª”–∑¥”¶£¨¡¨Ω”≥¢ ‘ ß∞‹°£
+
+
+[ 2014-10-21T18:13:49+08:00 ] 0.0.0.0 /php/index.php/Contest/Index/form
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000686s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000787s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\www\php\ThinkPHP\Lib\Driver\Db\DbMysql.class.php Á¨¨ 55 Ë°å.
+SQL: SHOW COLUMNS FROM `contest` [ RunTime:0.001763s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\www\php\ThinkPHP\Lib\Core\Db.class.php Á¨¨ 604 Ë°å.
+SQL: SELECT * FROM `contest` WHERE ( `cid` = 1 )  [ RunTime:0.001181s ]
+
+[ 2014-10-21T18:14:43+08:00 ] 0.0.0.0 /php/index.php/Contest/Index/form
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000385s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\www\php\ThinkPHP\Lib\Driver\Db\DbMysql.class.php Á¨¨ 55 Ë°å.
+SQL: SHOW COLUMNS FROM `contest` [ RunTime:0.001928s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\www\php\ThinkPHP\Lib\Core\Db.class.php Á¨¨ 604 Ë°å.
+SQL: SELECT * FROM `contest` WHERE ( `cid` = 1 )  [ RunTime:0.000810s ]
+
+[ 2014-10-21T18:17:02+08:00 ] 0.0.0.0 /php/index.php/Contest/Index/form
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000355s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000396s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\www\php\ThinkPHP\Lib\Driver\Db\DbMysql.class.php Á¨¨ 55 Ë°å.
+SQL: SHOW COLUMNS FROM `contest` [ RunTime:0.001516s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\www\php\ThinkPHP\Lib\Core\Db.class.php Á¨¨ 604 Ë°å.
+SQL: SELECT * FROM `contest` WHERE ( `cid` = 2 )  [ RunTime:0.000943s ]
+NOTIC: [8] Undefined index: item F:\www\php\php\Lib\Action\Contest\IndexAction.class.php Á¨¨ 32 Ë°å.
+
+[ 2014-10-21T18:17:05+08:00 ] 0.0.0.0 /php/index.php/Contest/Index/form
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000369s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\www\php\ThinkPHP\Lib\Driver\Db\DbMysql.class.php Á¨¨ 55 Ë°å.
+SQL: SHOW COLUMNS FROM `contest` [ RunTime:0.001824s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\www\php\ThinkPHP\Lib\Core\Db.class.php Á¨¨ 604 Ë°å.
+SQL: SELECT * FROM `contest` WHERE ( `cid` = 2 )  [ RunTime:0.000619s ]
+NOTIC: [8] Undefined index: item F:\www\php\php\Lib\Action\Contest\IndexAction.class.php Á¨¨ 32 Ë°å.
+
+[ 2014-10-21T18:17:08+08:00 ] 0.0.0.0 /php/index.php/Contest/Index/form
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000381s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\www\php\ThinkPHP\Lib\Driver\Db\DbMysql.class.php Á¨¨ 55 Ë°å.
+SQL: SHOW COLUMNS FROM `contest` [ RunTime:0.001821s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\www\php\ThinkPHP\Lib\Core\Db.class.php Á¨¨ 604 Ë°å.
+SQL: SELECT * FROM `contest` WHERE ( `cid` = 2 )  [ RunTime:0.000732s ]
+NOTIC: [8] Undefined index: item F:\www\php\php\Lib\Action\Contest\IndexAction.class.php Á¨¨ 32 Ë°å.
+
+[ 2014-10-21T18:17:35+08:00 ] 0.0.0.0 /php/index.php/Contest/Index/form
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000381s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\www\php\ThinkPHP\Lib\Driver\Db\DbMysql.class.php Á¨¨ 55 Ë°å.
+SQL: SHOW COLUMNS FROM `contest` [ RunTime:0.001738s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\www\php\ThinkPHP\Lib\Core\Db.class.php Á¨¨ 604 Ë°å.
+SQL: SELECT * FROM `contest` WHERE ( `cid` = 2 )  [ RunTime:0.000654s ]
+NOTIC: [8] Undefined index: item F:\www\php\php\Lib\Action\Contest\IndexAction.class.php Á¨¨ 32 Ë°å.
+NOTIC: [8] Undefined index: item F:\www\php\php\Lib\Action\Contest\IndexAction.class.php Á¨¨ 99 Ë°å.
+
+[ 2014-10-21T18:17:40+08:00 ] 0.0.0.0 /php/index.php/Contest/Index/form
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000508s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000572s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\www\php\ThinkPHP\Lib\Driver\Db\DbMysql.class.php Á¨¨ 55 Ë°å.
+SQL: SHOW COLUMNS FROM `contest` [ RunTime:0.001801s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\www\php\ThinkPHP\Lib\Core\Db.class.php Á¨¨ 604 Ë°å.
+SQL: SELECT * FROM `contest` WHERE ( `cid` = 2 )  [ RunTime:0.000736s ]
+
+[ 2014-10-21T18:17:44+08:00 ] 0.0.0.0 /php/index.php/Contest/Index/form
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000386s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000437s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\www\php\ThinkPHP\Lib\Driver\Db\DbMysql.class.php Á¨¨ 55 Ë°å.
+SQL: SHOW COLUMNS FROM `contest` [ RunTime:0.001835s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\www\php\ThinkPHP\Lib\Core\Db.class.php Á¨¨ 604 Ë°å.
+SQL: SELECT * FROM `contest` WHERE ( `cid` = 2 )  [ RunTime:0.000712s ]
+
+[ 2014-10-21T18:17:45+08:00 ] 0.0.0.0 /php/index.php/Contest/Index/form
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000384s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000434s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\www\php\ThinkPHP\Lib\Driver\Db\DbMysql.class.php Á¨¨ 55 Ë°å.
+SQL: SHOW COLUMNS FROM `contest` [ RunTime:0.001794s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\www\php\ThinkPHP\Lib\Core\Db.class.php Á¨¨ 604 Ë°å.
+SQL: SELECT * FROM `contest` WHERE ( `cid` = 2 )  [ RunTime:0.000775s ]
+
+[ 2014-10-21T18:17:45+08:00 ] 0.0.0.0 /php/index.php/Contest/Index/form
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000371s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\www\php\ThinkPHP\Lib\Driver\Db\DbMysql.class.php Á¨¨ 55 Ë°å.
+SQL: SHOW COLUMNS FROM `contest` [ RunTime:0.001756s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\www\php\ThinkPHP\Lib\Core\Db.class.php Á¨¨ 604 Ë°å.
+SQL: SELECT * FROM `contest` WHERE ( `cid` = 2 )  [ RunTime:0.000732s ]
+
+[ 2014-10-21T18:17:46+08:00 ] 0.0.0.0 /php/index.php/Contest/Index/form
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000368s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\www\php\ThinkPHP\Lib\Driver\Db\DbMysql.class.php Á¨¨ 55 Ë°å.
+SQL: SHOW COLUMNS FROM `contest` [ RunTime:0.001726s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\www\php\ThinkPHP\Lib\Core\Db.class.php Á¨¨ 604 Ë°å.
+SQL: SELECT * FROM `contest` WHERE ( `cid` = 2 )  [ RunTime:0.000703s ]
+
+[ 2014-10-21T18:17:48+08:00 ] 0.0.0.0 /php/index.php/Contest/Index/form
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000374s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\www\php\ThinkPHP\Lib\Driver\Db\DbMysql.class.php Á¨¨ 55 Ë°å.
+SQL: SHOW COLUMNS FROM `contest` [ RunTime:0.001720s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\www\php\ThinkPHP\Lib\Core\Db.class.php Á¨¨ 604 Ë°å.
+SQL: SELECT * FROM `contest` WHERE ( `cid` = 1 )  [ RunTime:0.000939s ]
+
+[ 2014-10-21T18:17:50+08:00 ] 0.0.0.0 /php/index.php/Contest/Index/form
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000364s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000413s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\www\php\ThinkPHP\Lib\Driver\Db\DbMysql.class.php Á¨¨ 55 Ë°å.
+SQL: SHOW COLUMNS FROM `contest` [ RunTime:0.001764s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\www\php\ThinkPHP\Lib\Core\Db.class.php Á¨¨ 604 Ë°å.
+SQL: SELECT * FROM `contest` WHERE ( `cid` = 2 )  [ RunTime:0.000638s ]
+
+[ 2014-10-21T18:17:51+08:00 ] 0.0.0.0 /php/index.php/Contest/Index/form
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000371s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\www\php\ThinkPHP\Lib\Driver\Db\DbMysql.class.php Á¨¨ 55 Ë°å.
+SQL: SHOW COLUMNS FROM `contest` [ RunTime:0.001811s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\www\php\ThinkPHP\Lib\Core\Db.class.php Á¨¨ 604 Ë°å.
+SQL: SELECT * FROM `contest` WHERE ( `cid` = 2 )  [ RunTime:0.000679s ]
+
+[ 2014-10-21T18:17:51+08:00 ] 0.0.0.0 /php/index.php/Contest/Index/form
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000371s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\www\php\ThinkPHP\Lib\Driver\Db\DbMysql.class.php Á¨¨ 55 Ë°å.
+SQL: SHOW COLUMNS FROM `contest` [ RunTime:0.001714s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\www\php\ThinkPHP\Lib\Core\Db.class.php Á¨¨ 604 Ë°å.
+SQL: SELECT * FROM `contest` WHERE ( `cid` = 2 )  [ RunTime:0.000739s ]
+
+[ 2014-10-21T18:17:52+08:00 ] 0.0.0.0 /php/index.php/Contest/Index/form
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000368s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\www\php\ThinkPHP\Lib\Driver\Db\DbMysql.class.php Á¨¨ 55 Ë°å.
+SQL: SHOW COLUMNS FROM `contest` [ RunTime:0.001706s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\www\php\ThinkPHP\Lib\Core\Db.class.php Á¨¨ 604 Ë°å.
+SQL: SELECT * FROM `contest` WHERE ( `cid` = 2 )  [ RunTime:0.000710s ]
+
+[ 2014-10-21T18:17:52+08:00 ] 0.0.0.0 /php/index.php/Contest/Index/form
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000371s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\www\php\ThinkPHP\Lib\Driver\Db\DbMysql.class.php Á¨¨ 55 Ë°å.
+SQL: SHOW COLUMNS FROM `contest` [ RunTime:0.001631s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\www\php\ThinkPHP\Lib\Core\Db.class.php Á¨¨ 604 Ë°å.
+SQL: SELECT * FROM `contest` WHERE ( `cid` = 2 )  [ RunTime:0.000712s ]
+
+[ 2014-10-21T18:17:52+08:00 ] 0.0.0.0 /php/index.php/Contest/Index/form
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000372s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\www\php\ThinkPHP\Lib\Driver\Db\DbMysql.class.php Á¨¨ 55 Ë°å.
+SQL: SHOW COLUMNS FROM `contest` [ RunTime:0.001761s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\www\php\ThinkPHP\Lib\Core\Db.class.php Á¨¨ 604 Ë°å.
+SQL: SELECT * FROM `contest` WHERE ( `cid` = 2 )  [ RunTime:0.000736s ]
+
+[ 2014-10-21T18:17:53+08:00 ] 0.0.0.0 /php/index.php/Contest/Index/form
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000512s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\www\php\ThinkPHP\Lib\Driver\Db\DbMysql.class.php Á¨¨ 55 Ë°å.
+SQL: SHOW COLUMNS FROM `contest` [ RunTime:0.001744s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\www\php\ThinkPHP\Lib\Core\Db.class.php Á¨¨ 604 Ë°å.
+SQL: SELECT * FROM `contest` WHERE ( `cid` = 2 )  [ RunTime:0.000676s ]
+
+[ 2014-10-21T18:17:54+08:00 ] 0.0.0.0 /php/index.php/Contest/Index/form
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000369s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\www\php\ThinkPHP\Lib\Driver\Db\DbMysql.class.php Á¨¨ 55 Ë°å.
+SQL: SHOW COLUMNS FROM `contest` [ RunTime:0.001780s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\www\php\ThinkPHP\Lib\Core\Db.class.php Á¨¨ 604 Ë°å.
+SQL: SELECT * FROM `contest` WHERE ( `cid` = 2 )  [ RunTime:0.000716s ]
+
+[ 2014-10-21T18:18:49+08:00 ] 0.0.0.0 /php/index.php/Contest/Index/form
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000370s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\www\php\ThinkPHP\Lib\Driver\Db\DbMysql.class.php Á¨¨ 55 Ë°å.
+SQL: SHOW COLUMNS FROM `contest` [ RunTime:0.001784s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\www\php\ThinkPHP\Lib\Core\Db.class.php Á¨¨ 604 Ë°å.
+SQL: SELECT * FROM `contest` WHERE ( `cid` = 2 )  [ RunTime:0.000717s ]
+
+[ 2014-10-21T18:18:50+08:00 ] 0.0.0.0 /php/index.php/Contest/Index/form
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000371s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\www\php\ThinkPHP\Lib\Driver\Db\DbMysql.class.php Á¨¨ 55 Ë°å.
+SQL: SHOW COLUMNS FROM `contest` [ RunTime:0.001716s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\www\php\ThinkPHP\Lib\Core\Db.class.php Á¨¨ 604 Ë°å.
+SQL: SELECT * FROM `contest` WHERE ( `cid` = 2 )  [ RunTime:0.000700s ]
+
+[ 2014-10-21T18:18:59+08:00 ] 0.0.0.0 /php/index.php/Contest/Index/form
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000419s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000474s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\www\php\ThinkPHP\Lib\Driver\Db\DbMysql.class.php Á¨¨ 55 Ë°å.
+SQL: SHOW COLUMNS FROM `contest` [ RunTime:0.001846s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\www\php\ThinkPHP\Lib\Core\Db.class.php Á¨¨ 604 Ë°å.
+SQL: SELECT * FROM `contest` WHERE ( `cid` = 2 )  [ RunTime:0.000754s ]
+
+[ 2014-10-21T18:18:59+08:00 ] 0.0.0.0 /php/index.php/Contest/Index/form
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000386s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\www\php\ThinkPHP\Lib\Driver\Db\DbMysql.class.php Á¨¨ 55 Ë°å.
+SQL: SHOW COLUMNS FROM `contest` [ RunTime:0.001780s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\www\php\ThinkPHP\Lib\Core\Db.class.php Á¨¨ 604 Ë°å.
+SQL: SELECT * FROM `contest` WHERE ( `cid` = 2 )  [ RunTime:0.000706s ]
+
+[ 2014-10-21T18:19:00+08:00 ] 0.0.0.0 /php/index.php/Contest/Index/form
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000430s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\www\php\ThinkPHP\Lib\Driver\Db\DbMysql.class.php Á¨¨ 55 Ë°å.
+SQL: SHOW COLUMNS FROM `contest` [ RunTime:0.001755s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\www\php\ThinkPHP\Lib\Core\Db.class.php Á¨¨ 604 Ë°å.
+SQL: SELECT * FROM `contest` WHERE ( `cid` = 2 )  [ RunTime:0.000740s ]
+
+[ 2014-10-21T18:19:02+08:00 ] 0.0.0.0 /php/index.php/Contest/Index/form
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000374s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\www\php\ThinkPHP\Lib\Driver\Db\DbMysql.class.php Á¨¨ 55 Ë°å.
+SQL: SHOW COLUMNS FROM `contest` [ RunTime:0.001773s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\www\php\ThinkPHP\Lib\Core\Db.class.php Á¨¨ 604 Ë°å.
+SQL: SELECT * FROM `contest` WHERE ( `cid` = 1 )  [ RunTime:0.000576s ]
+
+[ 2014-10-21T18:19:05+08:00 ] 0.0.0.0 /php/index.php/Contest/Index/form
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000369s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\www\php\ThinkPHP\Lib\Driver\Db\DbMysql.class.php Á¨¨ 55 Ë°å.
+SQL: SHOW COLUMNS FROM `contest` [ RunTime:0.001688s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\www\php\ThinkPHP\Lib\Core\Db.class.php Á¨¨ 604 Ë°å.
+SQL: SELECT * FROM `contest` WHERE ( `cid` = 2 )  [ RunTime:0.000689s ]
+
+[ 2014-10-21T18:19:06+08:00 ] 0.0.0.0 /php/index.php/Contest/Index/form
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000289s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000322s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\www\php\ThinkPHP\Lib\Driver\Db\DbMysql.class.php Á¨¨ 55 Ë°å.
+SQL: SHOW COLUMNS FROM `contest` [ RunTime:0.001756s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\www\php\ThinkPHP\Lib\Core\Db.class.php Á¨¨ 604 Ë°å.
+SQL: SELECT * FROM `contest` WHERE ( `cid` = 2 )  [ RunTime:0.000728s ]
+
+[ 2014-10-21T18:19:06+08:00 ] 0.0.0.0 /php/index.php/Contest/Index/form
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000285s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000321s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\www\php\ThinkPHP\Lib\Driver\Db\DbMysql.class.php Á¨¨ 55 Ë°å.
+SQL: SHOW COLUMNS FROM `contest` [ RunTime:0.001673s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\www\php\ThinkPHP\Lib\Core\Db.class.php Á¨¨ 604 Ë°å.
+SQL: SELECT * FROM `contest` WHERE ( `cid` = 2 )  [ RunTime:0.000720s ]
+
+[ 2014-10-21T18:19:07+08:00 ] 0.0.0.0 /php/index.php/Contest/Index/form
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000374s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\www\php\ThinkPHP\Lib\Driver\Db\DbMysql.class.php Á¨¨ 55 Ë°å.
+SQL: SHOW COLUMNS FROM `contest` [ RunTime:0.001797s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\www\php\ThinkPHP\Lib\Core\Db.class.php Á¨¨ 604 Ë°å.
+SQL: SELECT * FROM `contest` WHERE ( `cid` = 2 )  [ RunTime:0.000719s ]
+
+[ 2014-10-21T18:19:08+08:00 ] 0.0.0.0 /php/index.php/Contest/Index/form
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000371s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\www\php\ThinkPHP\Lib\Driver\Db\DbMysql.class.php Á¨¨ 55 Ë°å.
+SQL: SHOW COLUMNS FROM `contest` [ RunTime:0.001778s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\www\php\ThinkPHP\Lib\Core\Db.class.php Á¨¨ 604 Ë°å.
+SQL: SELECT * FROM `contest` WHERE ( `cid` = 2 )  [ RunTime:0.000697s ]
+
+[ 2014-10-21T18:19:09+08:00 ] 0.0.0.0 /php/index.php/Contest/Index/form
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000371s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\www\php\ThinkPHP\Lib\Driver\Db\DbMysql.class.php Á¨¨ 55 Ë°å.
+SQL: SHOW COLUMNS FROM `contest` [ RunTime:0.001758s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\www\php\ThinkPHP\Lib\Core\Db.class.php Á¨¨ 604 Ë°å.
+SQL: SELECT * FROM `contest` WHERE ( `cid` = 2 )  [ RunTime:0.000707s ]
+
+[ 2014-10-21T18:19:11+08:00 ] 0.0.0.0 /php/index.php/Contest/Index/form
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000379s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\www\php\ThinkPHP\Lib\Driver\Db\DbMysql.class.php Á¨¨ 55 Ë°å.
+SQL: SHOW COLUMNS FROM `contest` [ RunTime:0.001780s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\www\php\ThinkPHP\Lib\Core\Db.class.php Á¨¨ 604 Ë°å.
+SQL: SELECT * FROM `contest` WHERE ( `cid` = 2 )  [ RunTime:0.000731s ]
+
+[ 2014-10-21T18:20:13+08:00 ] 0.0.0.0 /php/index.php/Contest/Index/form
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000380s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\www\php\ThinkPHP\Lib\Driver\Db\DbMysql.class.php Á¨¨ 55 Ë°å.
+SQL: SHOW COLUMNS FROM `contest` [ RunTime:0.001766s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\www\php\ThinkPHP\Lib\Core\Db.class.php Á¨¨ 604 Ë°å.
+SQL: SELECT * FROM `contest` WHERE ( `cid` = 2 )  [ RunTime:0.000722s ]
+
+[ 2014-10-21T18:20:33+08:00 ] 0.0.0.0 /php/index.php/Contest/Index/form
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000286s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000320s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\www\php\ThinkPHP\Lib\Driver\Db\DbMysql.class.php Á¨¨ 55 Ë°å.
+SQL: SHOW COLUMNS FROM `contest` [ RunTime:0.001748s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\www\php\ThinkPHP\Lib\Core\Db.class.php Á¨¨ 604 Ë°å.
+SQL: SELECT * FROM `contest` WHERE ( `cid` = 2 )  [ RunTime:0.000709s ]
+
+[ 2014-10-21T18:20:33+08:00 ] 0.0.0.0 /php/index.php/Contest/Index/form
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000370s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\www\php\ThinkPHP\Lib\Driver\Db\DbMysql.class.php Á¨¨ 55 Ë°å.
+SQL: SHOW COLUMNS FROM `contest` [ RunTime:0.001773s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\www\php\ThinkPHP\Lib\Core\Db.class.php Á¨¨ 604 Ë°å.
+SQL: SELECT * FROM `contest` WHERE ( `cid` = 2 )  [ RunTime:0.000713s ]
+
+[ 2014-10-21T18:20:34+08:00 ] 0.0.0.0 /php/index.php/Contest/Index/form
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000329s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\www\php\ThinkPHP\Lib\Driver\Db\DbMysql.class.php Á¨¨ 55 Ë°å.
+SQL: SHOW COLUMNS FROM `contest` [ RunTime:0.001677s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\www\php\ThinkPHP\Lib\Core\Db.class.php Á¨¨ 604 Ë°å.
+SQL: SELECT * FROM `contest` WHERE ( `cid` = 2 )  [ RunTime:0.000678s ]
+
+[ 2014-10-21T18:20:41+08:00 ] 0.0.0.0 /php/index.php/Contest/Index/form
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000369s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\www\php\ThinkPHP\Lib\Driver\Db\DbMysql.class.php Á¨¨ 55 Ë°å.
+SQL: SHOW COLUMNS FROM `contest` [ RunTime:0.001937s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\www\php\ThinkPHP\Lib\Core\Db.class.php Á¨¨ 604 Ë°å.
+SQL: SELECT * FROM `contest` WHERE ( `cid` = 2 )  [ RunTime:0.000662s ]
+
+[ 2014-10-21T18:22:32+08:00 ] 0.0.0.0 /php/index.php/Contest/Index/form
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000389s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\www\php\ThinkPHP\Lib\Driver\Db\DbMysql.class.php Á¨¨ 55 Ë°å.
+SQL: SHOW COLUMNS FROM `contest` [ RunTime:0.001738s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\www\php\ThinkPHP\Lib\Core\Db.class.php Á¨¨ 604 Ë°å.
+SQL: SELECT * FROM `contest` WHERE ( `cid` = 2 )  [ RunTime:0.000684s ]
+
+[ 2014-10-21T18:22:33+08:00 ] 0.0.0.0 /php/index.php/Contest/Index/form
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000368s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\www\php\ThinkPHP\Lib\Driver\Db\DbMysql.class.php Á¨¨ 55 Ë°å.
+SQL: SHOW COLUMNS FROM `contest` [ RunTime:0.001736s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\www\php\ThinkPHP\Lib\Core\Db.class.php Á¨¨ 604 Ë°å.
+SQL: SELECT * FROM `contest` WHERE ( `cid` = 2 )  [ RunTime:0.000693s ]
+
+[ 2014-10-21T18:24:44+08:00 ] 0.0.0.0 /php/index.php/Contest/Index/form
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000387s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\www\php\ThinkPHP\Lib\Driver\Db\DbMysql.class.php Á¨¨ 55 Ë°å.
+SQL: SHOW COLUMNS FROM `contest` [ RunTime:0.001839s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\www\php\ThinkPHP\Lib\Core\Db.class.php Á¨¨ 604 Ë°å.
+SQL: SELECT * FROM `contest` WHERE ( `cid` = 2 )  [ RunTime:0.000724s ]
+
+[ 2014-10-21T18:24:46+08:00 ] 0.0.0.0 /php/index.php/Contest/Index/form
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000371s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\www\php\ThinkPHP\Lib\Driver\Db\DbMysql.class.php Á¨¨ 55 Ë°å.
+SQL: SHOW COLUMNS FROM `contest` [ RunTime:0.001804s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\www\php\ThinkPHP\Lib\Core\Db.class.php Á¨¨ 604 Ë°å.
+SQL: SELECT * FROM `contest` WHERE ( `cid` = 1 )  [ RunTime:0.000707s ]
+
+[ 2014-10-21T18:27:17+08:00 ] 0.0.0.0 /php/index.php/Contest/Index/form
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000379s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\www\php\ThinkPHP\Lib\Driver\Db\DbMysql.class.php Á¨¨ 55 Ë°å.
+SQL: SHOW COLUMNS FROM `contest` [ RunTime:0.001775s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\www\php\ThinkPHP\Lib\Core\Db.class.php Á¨¨ 604 Ë°å.
+SQL: SELECT * FROM `contest` WHERE ( `cid` = 2 )  [ RunTime:0.000725s ]
+
+[ 2014-10-21T18:34:35+08:00 ] 0.0.0.0 /php/index.php/Contest/Index/form
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000356s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000397s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\www\php\ThinkPHP\Lib\Driver\Db\DbMysql.class.php Á¨¨ 55 Ë°å.
+SQL: SHOW COLUMNS FROM `contest` [ RunTime:0.001838s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\www\php\ThinkPHP\Lib\Core\Db.class.php Á¨¨ 604 Ë°å.
+SQL: SELECT * FROM `contest` WHERE ( `cid` = 2 )  [ RunTime:0.000727s ]
+
+[ 2014-10-21T18:58:50+08:00 ] 0.0.0.0 /php/index.php/Contest/index.html
+ERR: Êó†Ê≥ïÂä†ËΩΩÊ®°Âùó:index
+
+[ 2014-10-21T19:01:51+08:00 ] 0.0.0.0 /php/index.php/Contest/Index/index.html
+ERR: Ê®°Êùø‰∏çÂ≠òÂú®[./php/Tpl/Contest/Index/index.html]
+
+[ 2014-10-21T19:02:22+08:00 ] 0.0.0.0 /php/index.php/Contest/index.html
+ERR: Êó†Ê≥ïÂä†ËΩΩÊ®°Âùó:index
+
+[ 2014-10-21T19:02:24+08:00 ] 0.0.0.0 /php/index.php/Contest/Index/index.html
+ERR: Ê®°Êùø‰∏çÂ≠òÂú®[./php/Tpl/Contest/Index/index.html]
+
+[ 2014-10-21T19:02:45+08:00 ] 0.0.0.0 /php/index.php/Contest/Index/index.html
+ERR: Ê®°Êùø‰∏çÂ≠òÂú®[./php/Tpl/Contest/Index/index.html]
+
+[ 2014-10-21T19:02:48+08:00 ] 0.0.0.0 /php/index.php/Contest/index.html
+ERR: Êó†Ê≥ïÂä†ËΩΩÊ®°Âùó:index
+
+[ 2014-10-21T19:02:53+08:00 ] 0.0.0.0 /php/index.php/Contest/index.html
+ERR: Êó†Ê≥ïÂä†ËΩΩÊ®°Âùó:index
+
+[ 2014-10-21T19:03:16+08:00 ] 0.0.0.0 /php/index.php/Contest/index.html
+ERR: Êó†Ê≥ïÂä†ËΩΩÊ®°Âùó:index
+
+[ 2014-10-21T19:03:17+08:00 ] 0.0.0.0 /php/index.php/Contest/Index/index.html
+ERR: Ê®°Êùø‰∏çÂ≠òÂú®[./php/Tpl/Contest/Index/index.html]
+
+[ 2014-10-21T19:03:40+08:00 ] 0.0.0.0 /php/index.php/Contest/Index/form
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000384s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\www\php\ThinkPHP\Lib\Driver\Db\DbMysql.class.php Á¨¨ 55 Ë°å.
+SQL: SHOW COLUMNS FROM `contest` [ RunTime:0.001854s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\www\php\ThinkPHP\Lib\Core\Db.class.php Á¨¨ 604 Ë°å.
+SQL: SELECT * FROM `contest` WHERE ( `cid` = 1 )  [ RunTime:0.000740s ]
+
+[ 2014-10-21T19:17:51+08:00 ] 0.0.0.0 /php/index.php/Contest/Index/problem?pid=1&cid=1
+ERR: ÈùûÊ≥ïÊìç‰Ωú:problem
+
+[ 2014-10-21T19:17:57+08:00 ] 0.0.0.0 /php/index.php/Contest/Index/problem?pid=1&cid=1
+ERR: ÈùûÊ≥ïÊìç‰Ωú:problem
+
+[ 2014-10-21T19:19:53+08:00 ] 0.0.0.0 /php/index.php/Contest/Index/form
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000404s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\www\php\ThinkPHP\Lib\Driver\Db\DbMysql.class.php Á¨¨ 55 Ë°å.
+SQL: SHOW COLUMNS FROM `contest` [ RunTime:0.001845s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\www\php\ThinkPHP\Lib\Core\Db.class.php Á¨¨ 604 Ë°å.
+SQL: SELECT * FROM `contest` WHERE ( `cid` = 2 )  [ RunTime:0.000771s ]
+
+[ 2014-10-21T19:20:30+08:00 ] 0.0.0.0 /php/index.php/Contest/Index/form
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000352s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000392s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\www\php\ThinkPHP\Lib\Driver\Db\DbMysql.class.php Á¨¨ 55 Ë°å.
+SQL: SHOW COLUMNS FROM `contest` [ RunTime:0.001860s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\www\php\ThinkPHP\Lib\Core\Db.class.php Á¨¨ 604 Ë°å.
+SQL: SELECT * FROM `contest` WHERE ( `cid` = 1 )  [ RunTime:0.000777s ]
+
+[ 2014-10-21T19:20:35+08:00 ] 0.0.0.0 /php/index.php/Contest/Index/form
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000380s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\www\php\ThinkPHP\Lib\Driver\Db\DbMysql.class.php Á¨¨ 55 Ë°å.
+SQL: SHOW COLUMNS FROM `contest` [ RunTime:0.001748s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\www\php\ThinkPHP\Lib\Core\Db.class.php Á¨¨ 604 Ë°å.
+SQL: SELECT * FROM `contest` WHERE ( `cid` = 2 )  [ RunTime:0.000731s ]
+
+[ 2014-10-21T19:20:54+08:00 ] 0.0.0.0 /php/index.php/Contest/Index/form
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000382s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\www\php\ThinkPHP\Lib\Driver\Db\DbMysql.class.php Á¨¨ 55 Ë°å.
+SQL: SHOW COLUMNS FROM `contest` [ RunTime:0.001817s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\www\php\ThinkPHP\Lib\Core\Db.class.php Á¨¨ 604 Ë°å.
+SQL: SELECT * FROM `contest` WHERE ( `cid` = 1 )  [ RunTime:0.000744s ]
+
+[ 2014-10-21T19:20:55+08:00 ] 0.0.0.0 /php/index.php/Contest/Index/form
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000381s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\www\php\ThinkPHP\Lib\Driver\Db\DbMysql.class.php Á¨¨ 55 Ë°å.
+SQL: SHOW COLUMNS FROM `contest` [ RunTime:0.001700s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\www\php\ThinkPHP\Lib\Core\Db.class.php Á¨¨ 604 Ë°å.
+SQL: SELECT * FROM `contest` WHERE ( `cid` = 2 )  [ RunTime:0.000694s ]
+
+[ 2014-10-21T19:21:13+08:00 ] 0.0.0.0 /php/index.php/Contest/Index/form
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000395s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\www\php\ThinkPHP\Lib\Driver\Db\DbMysql.class.php Á¨¨ 55 Ë°å.
+SQL: SHOW COLUMNS FROM `contest` [ RunTime:0.001743s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\www\php\ThinkPHP\Lib\Core\Db.class.php Á¨¨ 604 Ë°å.
+SQL: SELECT * FROM `contest` WHERE ( `cid` = 1 )  [ RunTime:0.000736s ]
+
+[ 2014-10-21T20:31:55+08:00 ] 0.0.0.0 /php/index.php/Contest/show
+ERR: Êó†Ê≥ïÂä†ËΩΩÊ®°Âùó:show
+
+[ 2014-10-21T20:32:27+08:00 ] 0.0.0.0 /php/index.php/Contest/show
+ERR: Êó†Ê≥ïÂä†ËΩΩÊ®°Âùó:show
+
+[ 2014-10-21T20:32:29+08:00 ] 0.0.0.0 /php/index.php/Ccontest/show
+ERR: Êó†Ê≥ïÂä†ËΩΩÊ®°Âùó:Ccontest
+
+[ 2014-10-21T20:32:36+08:00 ] 0.0.0.0 /php/index.php/Index/Index/handle
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000378s ]
+
+[ 2014-10-21T20:32:42+08:00 ] 0.0.0.0 /php/index.php/Ccontest/show
+ERR: Êó†Ê≥ïÂä†ËΩΩÊ®°Âùó:Ccontest
+
+[ 2014-10-21T20:32:44+08:00 ] 0.0.0.0 /php/index.php/Contest/show
+ERR: Êó†Ê≥ïÂä†ËΩΩÊ®°Âùó:show
+
+[ 2014-10-21T20:33:08+08:00 ] 0.0.0.0 /php/index.php/Ccontest/show
+ERR: Êó†Ê≥ïÂä†ËΩΩÊ®°Âùó:Ccontest
+
+[ 2014-10-21T20:33:11+08:00 ] 0.0.0.0 /php/index.php/Contest/show
+ERR: Êó†Ê≥ïÂä†ËΩΩÊ®°Âùó:show
+
+[ 2014-10-21T20:33:12+08:00 ] 0.0.0.0 /php/index.php/Contest/show
+ERR: Êó†Ê≥ïÂä†ËΩΩÊ®°Âùó:show
+
+[ 2014-10-21T20:33:27+08:00 ] 0.0.0.0 /php/index.php/Contest/show
+ERR: Êó†Ê≥ïÂä†ËΩΩÊ®°Âùó:show
+
+[ 2014-10-21T20:33:31+08:00 ] 0.0.0.0 /php/index.php/Ccontest/show
+ERR: Êó†Ê≥ïÂä†ËΩΩÊ®°Âùó:Ccontest
+
+[ 2014-10-21T20:33:32+08:00 ] 0.0.0.0 /php/index.php/Contest/show
+ERR: Êó†Ê≥ïÂä†ËΩΩÊ®°Âùó:show
+
+[ 2014-10-21T20:34:10+08:00 ] 0.0.0.0 /php/index.php/Ccontest/show
+ERR: Êó†Ê≥ïÂä†ËΩΩÊ®°Âùó:Ccontest
+
+[ 2014-10-21T20:34:15+08:00 ] 0.0.0.0 /php/index.php/Index/Index/handle
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000766s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000908s ]
+
+[ 2014-10-21T20:34:17+08:00 ] 0.0.0.0 /php/index.php/Ccontest/show
+ERR: Êó†Ê≥ïÂä†ËΩΩÊ®°Âùó:Ccontest
+
+[ 2014-10-21T20:34:18+08:00 ] 0.0.0.0 /php/index.php/Contest/show
+ERR: Êó†Ê≥ïÂä†ËΩΩÊ®°Âùó:show
+
+[ 2014-10-21T20:34:42+08:00 ] 0.0.0.0 /php/index.php/Contest/show
+ERR: Êó†Ê≥ïÂä†ËΩΩÊ®°Âùó:show
+
+[ 2014-10-21T20:34:48+08:00 ] 0.0.0.0 /php/index.php/Ccontest/show
+ERR: Êó†Ê≥ïÂä†ËΩΩÊ®°Âùó:Ccontest
+
+[ 2014-10-21T20:34:50+08:00 ] 0.0.0.0 /php/index.php/Contest/show
+ERR: Êó†Ê≥ïÂä†ËΩΩÊ®°Âùó:show
+
+[ 2014-10-21T20:35:13+08:00 ] 0.0.0.0 /php/index.php/Ccontest/show
+ERR: Êó†Ê≥ïÂä†ËΩΩÊ®°Âùó:Ccontest
+
+[ 2014-10-21T20:35:15+08:00 ] 0.0.0.0 /php/index.php/Contest/show
+ERR: Êó†Ê≥ïÂä†ËΩΩÊ®°Âùó:show
+
+[ 2014-10-21T20:35:32+08:00 ] 0.0.0.0 /php/index.php/Ccontest/show
+ERR: Êó†Ê≥ïÂä†ËΩΩÊ®°Âùó:Ccontest
+
+[ 2014-10-21T20:35:33+08:00 ] 0.0.0.0 /php/index.php/Ccontest/show
+ERR: Êó†Ê≥ïÂä†ËΩΩÊ®°Âùó:Ccontest
+
+[ 2014-10-21T20:35:34+08:00 ] 0.0.0.0 /php/index.php/Ccontest/show
+ERR: Êó†Ê≥ïÂä†ËΩΩÊ®°Âùó:Ccontest
+
+[ 2014-10-21T20:35:34+08:00 ] 0.0.0.0 /php/index.php/Ccontest/show
+ERR: Êó†Ê≥ïÂä†ËΩΩÊ®°Âùó:Ccontest
+
+[ 2014-10-21T20:35:34+08:00 ] 0.0.0.0 /php/index.php/Ccontest/show
+ERR: Êó†Ê≥ïÂä†ËΩΩÊ®°Âùó:Ccontest
+
+[ 2014-10-21T20:35:36+08:00 ] 0.0.0.0 /php/index.php/Ccontest/show
+ERR: Êó†Ê≥ïÂä†ËΩΩÊ®°Âùó:Ccontest
+
+[ 2014-10-21T20:35:40+08:00 ] 0.0.0.0 /php/index.php/Contest/show
+ERR: Êó†Ê≥ïÂä†ËΩΩÊ®°Âùó:show
+
+[ 2014-10-21T20:35:43+08:00 ] 0.0.0.0 /php/index.php/Ccontest/show
+ERR: Êó†Ê≥ïÂä†ËΩΩÊ®°Âùó:Ccontest
+
+[ 2014-10-21T20:35:45+08:00 ] 0.0.0.0 /php/index.php/Index/Index/handle
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000498s ]
+
+[ 2014-10-21T20:35:46+08:00 ] 0.0.0.0 /php/index.php/Ccontest/show
+ERR: Êó†Ê≥ïÂä†ËΩΩÊ®°Âùó:Ccontest
+
+[ 2014-10-21T20:35:47+08:00 ] 0.0.0.0 /php/index.php/Contest/show
+ERR: Êó†Ê≥ïÂä†ËΩΩÊ®°Âùó:show
+
+[ 2014-10-21T20:41:05+08:00 ] 0.0.0.0 /php/index.php/Ccontest/show
+ERR: Êó†Ê≥ïÂä†ËΩΩÊ®°Âùó:Ccontest
+
+[ 2014-10-21T20:41:08+08:00 ] 0.0.0.0 /php/index.php/Ccontest
+ERR: Êó†Ê≥ïÂä†ËΩΩÊ®°Âùó:Ccontest
+
+[ 2014-10-21T20:41:13+08:00 ] 0.0.0.0 /php/index.php/Index/Index/handle
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000887s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001023s ]
+
+[ 2014-10-21T20:41:17+08:00 ] 0.0.0.0 /php/index.php/Ccontest
+ERR: Êó†Ê≥ïÂä†ËΩΩÊ®°Âùó:Ccontest
+
+[ 2014-10-21T20:41:22+08:00 ] 0.0.0.0 /php/index.php/Index/Index/handle
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000627s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000717s ]
+
+[ 2014-10-21T20:41:51+08:00 ] 0.0.0.0 /php/index.php/Index/problem?pid=1&cid=1
+ERR: Êó†Ê≥ïÂä†ËΩΩÊ®°Âùó:problem
+
+[ 2014-10-21T20:41:59+08:00 ] 0.0.0.0 /php/index.php/Index/Index/handle
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000809s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000935s ]
+
+[ 2014-10-21T20:42:28+08:00 ] 0.0.0.0 /php/index.php/Ccontest
+ERR: Êó†Ê≥ïÂä†ËΩΩÊ®°Âùó:Ccontest
+
+[ 2014-10-21T20:42:29+08:00 ] 0.0.0.0 /php/index.php/Ccontest/show
+ERR: Êó†Ê≥ïÂä†ËΩΩÊ®°Âùó:Ccontest
+
+[ 2014-10-21T20:42:32+08:00 ] 0.0.0.0 /php/index.php/Index/problem?pid=1&cid=1
+ERR: Êó†Ê≥ïÂä†ËΩΩÊ®°Âùó:problem
+
+[ 2014-10-21T20:42:34+08:00 ] 0.0.0.0 /php/index.php/Index/problem?pid=1&cid=1
+ERR: Êó†Ê≥ïÂä†ËΩΩÊ®°Âùó:problem
+
+[ 2014-10-21T20:42:35+08:00 ] 0.0.0.0 /php/index.php/Index/Index/handle
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000309s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000353s ]
+
+[ 2014-10-21T20:42:40+08:00 ] 0.0.0.0 /php/index.php/Index/Index/handle
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000498s ]
+
+[ 2014-10-21T20:42:58+08:00 ] 0.0.0.0 /php/index.php/Index/problem?pid=1&cid=1
+ERR: Êó†Ê≥ïÂä†ËΩΩÊ®°Âùó:problem
+
+[ 2014-10-21T20:43:04+08:00 ] 0.0.0.0 /php/index.php/Index/Index/handle
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000292s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000336s ]
+
+[ 2014-10-21T20:43:35+08:00 ] 0.0.0.0 /php/index.php/Index/problem?pid=1&cid=1
+ERR: Êó†Ê≥ïÂä†ËΩΩÊ®°Âùó:problem
+
+[ 2014-10-21T20:43:40+08:00 ] 0.0.0.0 /php/index.php/Index/Index/handle
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000513s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000585s ]
+
+[ 2014-10-21T20:44:07+08:00 ] 0.0.0.0 /php/index.php/Index/problem?pid=1&cid=1
+ERR: Êó†Ê≥ïÂä†ËΩΩÊ®°Âùó:problem
+
+[ 2014-10-21T20:44:09+08:00 ] 0.0.0.0 /php/index.php/Index/problem?pid=1&cid=1
+ERR: Êó†Ê≥ïÂä†ËΩΩÊ®°Âùó:problem
+
+[ 2014-10-21T20:44:09+08:00 ] 0.0.0.0 /php/index.php/Index/problem?pid=1&cid=1
+ERR: Êó†Ê≥ïÂä†ËΩΩÊ®°Âùó:problem
+
+[ 2014-10-21T20:44:09+08:00 ] 0.0.0.0 /php/index.php/Index/problem?pid=1&cid=1
+ERR: Êó†Ê≥ïÂä†ËΩΩÊ®°Âùó:problem
+
+[ 2014-10-21T20:44:10+08:00 ] 0.0.0.0 /php/index.php/Index/problem?pid=1&cid=1
+ERR: Êó†Ê≥ïÂä†ËΩΩÊ®°Âùó:problem
+
+[ 2014-10-21T21:03:42+08:00 ] 0.0.0.0 /php/index.php
+ERR: ”…”⁄¡¨Ω”∑Ω‘⁄“ª∂Œ ±º‰∫Û√ª”–’˝»∑¥∏¥ªÚ¡¨Ω”µƒ÷˜ª˙√ª”–∑¥”¶£¨¡¨Ω”≥¢ ‘ ß∞‹°£
+
+
+[ 2014-10-21T21:04:08+08:00 ] 0.0.0.0 /php/index.php
+ERR: ”…”⁄¡¨Ω”∑Ω‘⁄“ª∂Œ ±º‰∫Û√ª”–’˝»∑¥∏¥ªÚ¡¨Ω”µƒ÷˜ª˙√ª”–∑¥”¶£¨¡¨Ω”≥¢ ‘ ß∞‹°£
+
+
+[ 2014-10-21T21:04:34+08:00 ] 0.0.0.0 /php/index.php
+ERR: ”…”⁄¡¨Ω”∑Ω‘⁄“ª∂Œ ±º‰∫Û√ª”–’˝»∑¥∏¥ªÚ¡¨Ω”µƒ÷˜ª˙√ª”–∑¥”¶£¨¡¨Ω”≥¢ ‘ ß∞‹°£
+
+
+[ 2014-10-21T21:05:00+08:00 ] 0.0.0.0 /php/index.php
+ERR: ”…”⁄¡¨Ω”∑Ω‘⁄“ª∂Œ ±º‰∫Û√ª”–’˝»∑¥∏¥ªÚ¡¨Ω”µƒ÷˜ª˙√ª”–∑¥”¶£¨¡¨Ω”≥¢ ‘ ß∞‹°£
+
+
+[ 2014-10-21T21:05:26+08:00 ] 0.0.0.0 /php/index.php
+ERR: ”…”⁄¡¨Ω”∑Ω‘⁄“ª∂Œ ±º‰∫Û√ª”–’˝»∑¥∏¥ªÚ¡¨Ω”µƒ÷˜ª˙√ª”–∑¥”¶£¨¡¨Ω”≥¢ ‘ ß∞‹°£
+
+
+[ 2014-10-21T21:05:52+08:00 ] 0.0.0.0 /php/index.php
+ERR: ”…”⁄¡¨Ω”∑Ω‘⁄“ª∂Œ ±º‰∫Û√ª”–’˝»∑¥∏¥ªÚ¡¨Ω”µƒ÷˜ª˙√ª”–∑¥”¶£¨¡¨Ω”≥¢ ‘ ß∞‹°£
+
+
+[ 2014-10-21T21:06:19+08:00 ] 0.0.0.0 /php/index.php
+ERR: ”…”⁄¡¨Ω”∑Ω‘⁄“ª∂Œ ±º‰∫Û√ª”–’˝»∑¥∏¥ªÚ¡¨Ω”µƒ÷˜ª˙√ª”–∑¥”¶£¨¡¨Ω”≥¢ ‘ ß∞‹°£
+
+
+[ 2014-10-21T21:06:45+08:00 ] 0.0.0.0 /php/index.php
+ERR: ”…”⁄¡¨Ω”∑Ω‘⁄“ª∂Œ ±º‰∫Û√ª”–’˝»∑¥∏¥ªÚ¡¨Ω”µƒ÷˜ª˙√ª”–∑¥”¶£¨¡¨Ω”≥¢ ‘ ß∞‹°£
+
+
+[ 2014-10-21T21:07:11+08:00 ] 0.0.0.0 /php/index.php
+ERR: ”…”⁄¡¨Ω”∑Ω‘⁄“ª∂Œ ±º‰∫Û√ª”–’˝»∑¥∏¥ªÚ¡¨Ω”µƒ÷˜ª˙√ª”–∑¥”¶£¨¡¨Ω”≥¢ ‘ ß∞‹°£
+
+
+[ 2014-10-21T21:07:37+08:00 ] 0.0.0.0 /php/index.php
+ERR: ”…”⁄¡¨Ω”∑Ω‘⁄“ª∂Œ ±º‰∫Û√ª”–’˝»∑¥∏¥ªÚ¡¨Ω”µƒ÷˜ª˙√ª”–∑¥”¶£¨¡¨Ω”≥¢ ‘ ß∞‹°£
+
+
+[ 2014-10-21T21:08:03+08:00 ] 0.0.0.0 /php/index.php
+ERR: ”…”⁄¡¨Ω”∑Ω‘⁄“ª∂Œ ±º‰∫Û√ª”–’˝»∑¥∏¥ªÚ¡¨Ω”µƒ÷˜ª˙√ª”–∑¥”¶£¨¡¨Ω”≥¢ ‘ ß∞‹°£
+
+
+[ 2014-10-21T21:08:29+08:00 ] 0.0.0.0 /php/index.php
+ERR: ”…”⁄¡¨Ω”∑Ω‘⁄“ª∂Œ ±º‰∫Û√ª”–’˝»∑¥∏¥ªÚ¡¨Ω”µƒ÷˜ª˙√ª”–∑¥”¶£¨¡¨Ω”≥¢ ‘ ß∞‹°£
+
+
+[ 2014-10-21T21:08:46+08:00 ] 0.0.0.0 /php/index.php/Index/index
+ERR: Êó†Ê≥ïÂä†ËΩΩÊ®°Âùó:index
+
+[ 2014-10-21T21:10:16+08:00 ] 0.0.0.0 /php/index.php/Index/problem?pid=1&cid=1
+ERR: Êó†Ê≥ïÂä†ËΩΩÊ®°Âùó:problem
+
+[ 2014-10-21T21:10:24+08:00 ] 0.0.0.0 /php/index.php/Index/index
+ERR: Êó†Ê≥ïÂä†ËΩΩÊ®°Âùó:index
+
+[ 2014-10-21T21:14:49+08:00 ] 0.0.0.0 /php/index.php/Index/handle
+ERR: Êó†Ê≥ïÂä†ËΩΩÊ®°Âùó:handle
+
+[ 2014-10-21T21:16:01+08:00 ] 0.0.0.0 /php/index.php/Index/index
+ERR: Êó†Ê≥ïÂä†ËΩΩÊ®°Âùó:index
+
+[ 2014-10-21T21:16:07+08:00 ] 0.0.0.0 /php/index.php/Index/index
+ERR: Êó†Ê≥ïÂä†ËΩΩÊ®°Âùó:index
+
+[ 2014-10-21T21:41:36+08:00 ] 0.0.0.0 /php/index.php/Ccontest/show
+ERR: Êó†Ê≥ïÂä†ËΩΩÊ®°Âùó:Ccontest
+
+[ 2014-10-21T21:42:17+08:00 ] 0.0.0.0 /php/index.php/Ccontest/show
+ERR: Êó†Ê≥ïÂä†ËΩΩÊ®°Âùó:Ccontest
+
+[ 2014-10-21T21:43:25+08:00 ] 0.0.0.0 /php/index.php/Index/Index/index
+ERR: ”…”⁄¡¨Ω”∑Ω‘⁄“ª∂Œ ±º‰∫Û√ª”–’˝»∑¥∏¥ªÚ¡¨Ω”µƒ÷˜ª˙√ª”–∑¥”¶£¨¡¨Ω”≥¢ ‘ ß∞‹°£
+
+
+[ 2014-10-21T21:43:33+08:00 ] 0.0.0.0 /php/index.php/Ccontest/show
+ERR: Êó†Ê≥ïÂä†ËΩΩÊ®°Âùó:Ccontest
+
+[ 2014-10-21T21:43:34+08:00 ] 0.0.0.0 /php/index.php/Ccontest/show
+ERR: Êó†Ê≥ïÂä†ËΩΩÊ®°Âùó:Ccontest
+
+[ 2014-10-21T21:43:35+08:00 ] 0.0.0.0 /php/index.php/Ccontest/show
+ERR: Êó†Ê≥ïÂä†ËΩΩÊ®°Âùó:Ccontest
+
+[ 2014-10-21T21:43:35+08:00 ] 0.0.0.0 /php/index.php/Ccontest/show
+ERR: Êó†Ê≥ïÂä†ËΩΩÊ®°Âùó:Ccontest
+
+[ 2014-10-21T21:47:13+08:00 ] 0.0.0.0 /php/index.php/Ccontest/show
+ERR: Êó†Ê≥ïÂä†ËΩΩÊ®°Âùó:Ccontest
+
+[ 2014-10-21T21:47:14+08:00 ] 0.0.0.0 /php/index.php/Ccontest/show
+ERR: Êó†Ê≥ïÂä†ËΩΩÊ®°Âùó:Ccontest
+
+[ 2014-10-21T21:47:14+08:00 ] 0.0.0.0 /php/index.php/Ccontest/show
+ERR: Êó†Ê≥ïÂä†ËΩΩÊ®°Âùó:Ccontest
+
+[ 2014-10-21T21:48:06+08:00 ] 0.0.0.0 /php/index.php/Contest/Index/index
+ERR: ”…”⁄¡¨Ω”∑Ω‘⁄“ª∂Œ ±º‰∫Û√ª”–’˝»∑¥∏¥ªÚ¡¨Ω”µƒ÷˜ª˙√ª”–∑¥”¶£¨¡¨Ω”≥¢ ‘ ß∞‹°£
+
+

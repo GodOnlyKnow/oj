@@ -1,0 +1,102 @@
+table.altrowstable {
+	font-size:15px;
+	color:#557eb2;
+	border-color: #000;
+	border-collapse: collapse;
+}
+table.altrowstable th {
+    text-align: center;
+	border-width: 3px;
+	border-style: solid;
+	border-color: #e0dede;
+    height: 50px;
+}
+table.altrowstable tr {
+    text-align: center;
+    height: 40px;
+}
+table.altrowstable td {
+	border-width: 3px;
+	border-style: solid;
+	border-color: #e0dede;
+    text-align: center;
+    height: 50px;
+    word-wrap:break-word;
+}
+.oddrowcolor{
+	background-color:#fff;
+}
+.oddcolcolor{
+    background-color:#d3d4d6;
+}
+.evenrowcolor{
+	background-color:#d3f3e3;
+}
+.evencolcolor{
+    background-color:#abd0fb;
+}
+.contestname{
+    text-align: center;
+    color: white;
+    margin: 0;
+}
+.nav-tabs {
+  border-bottom: 3px solid #2C70B4;
+}
+.nav-tabs > li > a {
+  margin-right: 2px;
+  line-height: 1.42857143;
+  border: 1px solid transparent;
+  border-radius: 10px 10px 0 0;
+}
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+  color: #fff;
+  cursor: default;
+  background-color: #2C70B4;
+  border: 1px solid #ddd;
+  border-bottom-color: transparent;
+}
+.rank{
+    width: 10%;
+}
+.name {
+    width: 10%;
+}
+.slove{
+    width:10%;
+}
+.time{
+    width: 10%;
+}
+.pro{
+    width: 10%;
+}
+.goal{
+    background: rgb(253,193,77);
+}
+.silver{
+    background: rgb(192,192,192);
+}
+.bronze{
+    background: rgb(192,142,85);
+}
+.normal{
+    background: #fff;
+}
+.firstblood{
+    background: rgb(27,183,78);
+}
+.accept{
+    background: rgb(131,255,142);
+}
+.wrong{
+    background: rgb(254,90,90);
+}
+td{
+    color: #000;
+}
+#info{
+    width: 100%;
+}

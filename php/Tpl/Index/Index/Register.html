@@ -1,0 +1,32 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>注册</title>
+<script type="text/javascript" src='__PUBLIC__/JS/jquery-1.11.1.min.js'></script>
+<script type="text/javascript" src='__PUBLIC__/JS/register.js'></script>
+<script>
+var registerUrl="{:U('regs','','')}"
+</script>
+</head>
+<body>
+<div id="loginba">Login<span aria-hidden="true" id="close" data-dismiss="modal" ><img src="__PUBLIC__/Image/LoginRegist/X.png"></span></div>
+		    
+		    <div id="error"></div>
+		    <div id="loginform">
+				<div class="input-group">
+				  <span class="input-group-addon">Name:</span>
+				  <input type="text" class="form-control" name="username" placeholder="Please enter your username">
+				</div>
+				<div class="input-group">
+				  <span class="input-group-addon">Password:</span>
+				  <input type="password" class="form-control" name="password" placeholder="Please enter your password">
+				</div>
+			</div>
+			<div id="loginline"></div>
+			<div class="btns loginba">
+				<button type="button" class="btn" id="loginBtn">Login</button>
+				<button type="button" class="btn" id="registBtn" >Regist</button>
+			</div>
+</body>
+</html>

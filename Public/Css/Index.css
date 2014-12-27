@@ -1,0 +1,19 @@
+@CHARSET "UTF-8";
+#Topcarousel{
+	background:url(../Image/Home/head3.png);
+}
+.item{
+	height:330px;
+}
+.item img
+{
+   width: 100%;
+}
+#RecentsConba{
+	margin-top:10px;
+	color:#ffffff;
+	text-align:center;
+	font:24px arial;
+	line-height:50px;
+	background-color:rgb(117,117,117);
+}

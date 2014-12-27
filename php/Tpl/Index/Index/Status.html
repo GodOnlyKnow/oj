@@ -1,0 +1,144 @@
+<include file="Top" title="Status"/>
+	<div id="mainlist" class="container">
+	<div class="container-fluid" style="background-color:#787676;">
+	<div class="navbar-form">
+		<div class="input-group navbar-left searchbar">
+          <input type="text" id="searchinfo" class="form-control" placeholder="enter any words">
+         <span class="input-group-addon" id="submitinfo">Search</span>
+         </div>
+	   <nav class="navbar-right">
+	      <ul class="pagination" style="margin: 0">
+	       <?php 
+	       		$SearchUrl=U('Index/Status','','');
+				$rear=$nowpage-1;
+                $str='';
+                if($info!=null)$str='&info='.$info;
+                if($nowpage==1) echo'<li class="disabled"><a href="#">&laquo;</a></li>';
+                else echo'<li><a href="'.$SearchUrl.'?page='.$rear.$str.'">&laquo;</a></li>';
+           ?>
+	       <?php
+	          $str='';
+              if($info!=null)$str='&info='.$info;
+              if($pages<=5){
+                for($i=1;$i<=$pages;$i++){
+                if($i==$nowpage)echo'<li class="active"><a href="#">'.$i.'</a></li>';
+                else echo'<li><a href="'.$SearchUrl.'?page='.$i.$str.'">'.$i.'</a></li>';   
+                }
+                }
+                else{
+                if($nowpage<=3)
+                for($i=1;$i<=5;$i++){
+                if($i==$nowpage)echo'<li class="active"><a href="#">'.$i.'</a></li>';
+                else echo'<li><a href="'.$SearchUrl.'?page='.$i.$str.'">'.$i.'</a></li>';  
+                }
+                else if($pages-$nowpage<=2)
+                for($i=$pages-4;$i<=$pages;$i++){
+                if($i==$nowpage)echo'<li class="active"><a href="#">'.$i.'</a></li>';
+                else echo'<li><a href="'.$SearchUrl.'?page='.$i.$str.'">'.$i.'</a></li>';   
+                }
+                else for($i=$nowpage-2;$i<=$nowpage+2;$i++){
+                if($i==$nowpage)echo'<li class="active"><a href="#">'.$i.'</a></li>';
+                else echo'<li><a href="'.$SearchUrl.'?page='.$i.$str.'">'.$i.'</a></li>';  
+                }
+                }
+            ?>
+	       <?php 
+				$front=$nowpage+1;
+            	$str='';
+      			if($info!=null)$str='&info='.$info;
+	            if($nowpage>=$pages) echo'<li class="disabled"><a href="#">&raquo;</a></li>';
+   	            else echo'<li><a href="'.$SearchUrl.'?page='.$front.$str.'">&raquo;</a></li>'
+           ?>
+	      </ul>
+	    </nav>
+	</div>
+	</div>
+	<div id="mainlist">
+	<table id="list" class="list">
+		<tr>
+			<th>Run ID</th>
+			<th>User</th>
+			<th>Problem</th>
+			<th>Result</th>
+			<th>Memory</th>
+			<th>Time</th>
+			<th>Language</th>
+			<th>Length</th>
+			<th>Submit Time</th>
+		</tr>
+		<foreach name="data" item="p">
+		<tr>
+			<td id="pi">{$p.soid}</td>
+			<td>{$p.username}</td>
+			<td>{$p.pid}</td>
+			<td>{$p.result}</td>
+			<td>{$p.memory}</td>
+			<td>{$p.time}</td>
+			<td>
+			<?php
+			if($p['language']=="0")
+			echo "C";
+			else if($p['language']=="1")
+			echo "C++";
+			else
+			echo "Java";
+			?>
+			</td>
+			<td>{$p.length}</td>
+			<td>{$p.create_time}</td>
+		</tr>
+		</foreach>
+	</table>
+	<div class="container-fluid" style="margin:40px 0;">
+	<div class="navbar-form">
+	   <nav class="navbar-right">
+	      <ul class="pagination" style="margin: 0">
+	       <?php 
+				$rear=$nowpage-1;
+                $str='';
+                if($info!=null)$str='&info='.$info;
+                if($nowpage==1) echo'<li class="disabled"><a href="#">&laquo;</a></li>';
+                else echo'<li><a href="'.$SearchUrl.'?page='.$rear.$str.'">&laquo;</a></li>';
+           ?>
+	       <?php
+	          $str='';
+              if($info!=null)$str='&info='.$info;
+              if($pages<=5){
+                for($i=1;$i<=$pages;$i++){
+                if($i==$nowpage)echo'<li class="active"><a href="#">'.$i.'</a></li>';
+                else echo'<li><a href="'.$SearchUrl.'?page='.$i.$str.'">'.$i.'</a></li>';   
+                }
+                }
+                else{
+                if($nowpage<=3)
+                for($i=1;$i<=5;$i++){
+                if($i==$nowpage)echo'<li class="active"><a href="#">'.$i.'</a></li>';
+                else echo'<li><a href="'.$SearchUrl.'?page='.$i.$str.'">'.$i.'</a></li>';  
+                }
+                else if($pages-$nowpage<=2)
+                for($i=$pages-4;$i<=$pages;$i++){
+                if($i==$nowpage)echo'<li class="active"><a href="#">'.$i.'</a></li>';
+                else echo'<li><a href="'.$SearchUrl.'?page='.$i.$str.'">'.$i.'</a></li>';   
+                }
+                else for($i=$nowpage-2;$i<=$nowpage+2;$i++){
+                if($i==$nowpage)echo'<li class="active"><a href="#">'.$i.'</a></li>';
+                else echo'<li><a href="'.$SearchUrl.'?page='.$i.$str.'">'.$i.'</a></li>';  
+                }
+                }
+            ?>
+	       <?php 
+				$front=$nowpage+1;
+            	$str='';
+      			if($info!=null)$str='&info='.$info;
+	            if($nowpage==$pages) echo'<li class="disabled"><a href="#">&raquo;</a></li>';
+   	            else echo'<li><a href="'.$SearchUrl.'?page='.$front.$str.'">&raquo;</a></li>'
+           ?>
+	      </ul>
+	    </nav>
+	</div>
+	</div>
+	</div>
+<link rel="stylesheet" href="__PUBLIC__/CSS/Tabletpl.css" />
+<script type="text/javascript" src='__PUBLIC__/JS/LiSt.js'></script>
+</body>
+</html>

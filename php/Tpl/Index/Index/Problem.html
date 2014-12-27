@@ -1,0 +1,121 @@
+<include file="Top" title="{$data.pname}"/>
+
+<div id="pno">Problem<span style="font-weight:bold;color:rgb(170,170,170);margin:0 10px">></span><span class="pnoid">PID: {$data.pid}</span></div>
+<div id="topline"></div>
+<div id="back">
+	<div id="pname">{$data.pname}</div>
+	<div id="limit">
+	<span>Time Limit: </span><span class="limitdata">{$data.time} Sec</span> 
+	<span>Memory Limit: </span><span class="limitdata">{$data.memory} MB</span>
+	<span>Submit: </span><span class="limitdata">{$data.submit}</span> 
+	<span>Solve: </span><span class="limitdata">{$data.solved}</span>
+	</div>
+	<div class="btns">
+		<button type="button" class="Pre btn">Previous</button>
+	<?php
+  	if(isset($_SESSION['username'])==false){
+    	echo '<button type="button" class="Submit btn submitbtn" onclick="loginFalse()">Submit</button>';
+    	}
+    	else{
+    		echo '<button type="button" class="Submit btn submitbtn" onclick="loginTrue()">Submit</button>';
+    	}
+  	?>
+		<button type="button" class="Status btn">Status</button>
+		<button type="button" class="Next btn">Next</button>
+	</div>
+</div>
+	<div id="back1">
+	<div class="problemTag">
+	--&nbsp;<span style="font:42px arial;">D</span>escription&nbsp;--
+	</div>
+	<div class="problemTagtext">
+	{$data.desci}
+	</div>
+	<div class="problemTag">
+	--&nbsp;<span style="font:42px arial;">I</span>nput&nbsp;--
+	</div>
+	<div class="problemTagtext">
+	{$data.input}
+	</div>
+	<div class="problemTag">
+	--&nbsp;<span style="font:42px arial;">O</span>utput&nbsp;--
+	</div>
+	<div class="problemTagtext">
+	{$data.output}
+	</div>
+	<div class="problemTag">
+	--&nbsp;<span style="font:42px arial;">S</span>imple&nbsp;&nbsp;input&nbsp;&&nbsp;output&nbsp;--
+	</div>
+	<div class="problemTagtext">
+	<table id="inoutable">
+	<tr>
+		<th>Simple Input</th>
+		<th>Simple Output</th>
+	</tr>
+	<tr>
+		<td>{$data.indata}</td>
+		<td>{$data.outdata}</td>
+	</tr>
+	</table>
+	</div>
+	<div class="problemTag">
+	--&nbsp;<span style="font:42px arial;">S</span>ource&nbsp;--
+	</div>
+	<div class="problemTagtext">
+	{$data.source}
+	</div>
+</div>
+<div class="btns" id="bottombtn">
+		<button type="button" class="Pre btn">Previous</button>
+		<?php
+  	if(isset($_SESSION['username'])==false){
+    	echo '<button type="button" class="Submit btn submitbtn" onclick="loginFalse()">Submit</button>';
+    	}
+    	else{
+    		echo '<button type="button" class="Submit btn submitbtn" onclick="loginTrue()">Submit</button>';
+    	}
+  	?>
+		<button type="button" class="Status btn">Status</button>
+		<button type="button" class="Next btn">Next</button>
+</div>
+
+<div id="submitbar" class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-sm">
+    <div class="modal-content" id="SubmitContent">
+    <div id="submitba">Submit</div>
+      <textarea id="cpp-code"></textarea>
+      <div class="btn-group" id="btnsgroup">
+  		<button type="button" class="btn btn-default" id="0Btn">C</button>
+  		<button type="button" class="btn btn-default active" id="1Btn">C++</button>
+ 	    <button type="button" class="btn btn-default" id="2Btn">Java</button>
+	  </div>
+	  <div id="submitbarBtnbar">
+	  	<button type="button" id="SubmitBtn" class="SubmitbarBtn btn btn-primary">Submit</button>
+		<button type="button" id="CancelBtn" class="SubmitbarBtn btn btn-primary">Cancel</button>
+	  </div>
+    </div>
+  </div>
+</div>
+
+<script type="text/javascript" src='__PUBLIC__/JS/problem.js'></script>
+<script type="text/javascript" src='__PUBLIC__/JS/codemirror.js'></script>
+<script type="text/javascript" src='__PUBLIC__/JS/clike.js'></script>
+<link rel="stylesheet" href="__PUBLIC__/CSS/codemirror.css" />
+<link rel="stylesheet" href="__PUBLIC__/CSS/Problem.css" />
+<script>
+	var ProblemUrl="{:U('Index/Problem','','')}";
+	var SubmitUrl="{:U('Index/Submit','','')}";
+</script>
+<script type="text/javascript">
+
+var myCodeMirror = CodeMirror.fromTextArea(document.getElementById('cpp-code'), {
+    lineNumbers: true,
+    smartIndent: true,
+    electricChars:true,
+    theme: 'default',
+    mode: 'text/x-c++src'
+}); 
+
+</script>
+</body>
+</html>

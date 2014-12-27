@@ -1,0 +1,144 @@
+<include file="Top" title="RecentNews"/>
+<div id="mainlist" class="container">
+<div class="container-fluid" style="background-color:#787676;">
+	<div class="navbar-form">
+		<div class="input-group navbar-left searchbar">
+          <input type="text" id="searchinfo" class="form-control" placeholder="enter any words">
+         <span class="input-group-addon" id="submitinfo">Search</span>
+         </div>
+	   <nav class="navbar-right">
+	      <ul class="pagination" style="margin: 0">
+	       <?php 
+	       		$SearchUrl=U('Index/RecentNews','','');
+				$rear=$nowpage-1;
+                $str='';
+                if($info!=null)$str='&info='.$info;
+                if($nowpage==1) echo'<li class="disabled"><a href="#">&laquo;</a></li>';
+                else echo'<li><a href="'.$SearchUrl.'?page='.$rear.$str.'">&laquo;</a></li>';
+           ?>
+	       <?php
+	          $str='';
+              if($info!=null)$str='&info='.$info;
+              if($pages<=5){
+                for($i=1;$i<=$pages;$i++){
+                if($i==$nowpage)echo'<li class="active"><a href="#">'.$i.'</a></li>';
+                else echo'<li><a href="'.$SearchUrl.'?page='.$i.$str.'">'.$i.'</a></li>';   
+                }
+                }
+                else{
+                if($nowpage<=3)
+                for($i=1;$i<=5;$i++){
+                if($i==$nowpage)echo'<li class="active"><a href="#">'.$i.'</a></li>';
+                else echo'<li><a href="'.$SearchUrl.'?page='.$i.$str.'">'.$i.'</a></li>';  
+                }
+                else if($pages-$nowpage<=2)
+                for($i=$pages-4;$i<=$pages;$i++){
+                if($i==$nowpage)echo'<li class="active"><a href="#">'.$i.'</a></li>';
+                else echo'<li><a href="'.$SearchUrl.'?page='.$i.$str.'">'.$i.'</a></li>';   
+                }
+                else for($i=$nowpage-2;$i<=$nowpage+2;$i++){
+                if($i==$nowpage)echo'<li class="active"><a href="#">'.$i.'</a></li>';
+                else echo'<li><a href="'.$SearchUrl.'?page='.$i.$str.'">'.$i.'</a></li>';  
+                }
+                }
+            ?>
+	       <?php 
+				$front=$nowpage+1;
+            	$str='';
+      			if($info!=null)$str='&info='.$info;
+	            if($nowpage==$pages) echo'<li class="disabled"><a href="#">&raquo;</a></li>';
+   	            else echo'<li><a href="'.$SearchUrl.'?page='.$front.$str.'">&raquo;</a></li>'
+           ?>
+	      </ul>
+	    </nav>
+	</div>
+	</div>
+	<?php $index=0;?>
+	<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+		<foreach name="data" item="p">
+		
+		  <div class="panel">
+		    <div class="panel-heading title" role="tab" <?php echo 'id="heading'.$index.'"'?>>
+		      <h4 class="panel-title title" <?php 
+		        if($index==0){
+		        echo 'data-toggle="collapse" data-parent="#accordion" href="#collapse'.$index.'" aria-expanded="true" aria-controls="collapse'.$index.'"';
+		        }
+		        else{
+		        echo 'class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse'.$index.'" aria-expanded="false" aria-controls="collapse'.$index.'"';
+		        } 
+		        ?>>
+		        <div id="newtitle">{$p.title}xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx<?php if($index==0)echo'<img class="pointerimg" src="__PUBLIC__/Image/News/2.png" style="margin-left:100px;">';else echo'<img class="pointerimg" src="__PUBLIC__/Image/News/1.png" style="margin-left:100px;">';?></div>
+		        <div id="newtime"><img src="__PUBLIC__/Image/News/tiem.png" style="margin-right:10px;">Fri.{$p.create_time}<span><img src="__PUBLIC__/Image/News/by.png" style="margin-left:100px;">{$p.username}</span></div>
+		      </h4>
+		    </div>
+		    <div <?php echo 'id="collapse'.$index.'"'?> class="panel-collapse collapse <?php 
+				if($index==0){
+				echo ' in"';}
+				else{
+				echo '"';}?>  
+			role="tabpanel" <?php echo 'aria-labelledby="heading'.$index.'"';$index++;?>>
+		      <div class="panel-body">
+		        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+		      </div>
+		    </div>
+		  </div>
+		 
+		</foreach>
+		 </div>
+	<div class="container-fluid" style="margin:40px 0;">
+	<div class="navbar-form">
+	   <nav class="navbar-right">
+	      <ul class="pagination" style="margin: 0">
+	       <?php 
+				$rear=$nowpage-1;
+                $str='';
+                if($info!=null)$str='&info='.$info;
+                if($nowpage==1) echo'<li class="disabled"><a href="#">&laquo;</a></li>';
+                else echo'<li><a href="'.$SearchUrl.'?page='.$rear.$str.'">&laquo;</a></li>';
+           ?>
+	       <?php
+	          $str='';
+              if($info!=null)$str='&info='.$info;
+              if($pages<=5){
+                for($i=1;$i<=$pages;$i++){
+                if($i==$nowpage)echo'<li class="active"><a href="#">'.$i.'</a></li>';
+                else echo'<li><a href="'.$SearchUrl.'?page='.$i.$str.'">'.$i.'</a></li>';   
+                }
+                }
+                else{
+                if($nowpage<=3)
+                for($i=1;$i<=5;$i++){
+                if($i==$nowpage)echo'<li class="active"><a href="#">'.$i.'</a></li>';
+                else echo'<li><a href="'.$SearchUrl.'?page='.$i.$str.'">'.$i.'</a></li>';  
+                }
+                else if($pages-$nowpage<=2)
+                for($i=$pages-4;$i<=$pages;$i++){
+                if($i==$nowpage)echo'<li class="active"><a href="#">'.$i.'</a></li>';
+                else echo'<li><a href="'.$SearchUrl.'?page='.$i.$str.'">'.$i.'</a></li>';   
+                }
+                else for($i=$nowpage-2;$i<=$nowpage+2;$i++){
+                if($i==$nowpage)echo'<li class="active"><a href="#">'.$i.'</a></li>';
+                else echo'<li><a href="'.$SearchUrl.'?page='.$i.$str.'">'.$i.'</a></li>';  
+                }
+                }
+            ?>
+	       <?php 
+				$front=$nowpage+1;
+            	$str='';
+      			if($info!=null)$str='&info='.$info;
+	            if($nowpage==$pages) echo'<li class="disabled"><a href="#">&raquo;</a></li>';
+   	            else echo'<li><a href="'.$SearchUrl.'?page='.$front.$str.'">&raquo;</a></li>'
+           ?>
+	      </ul>
+	    </nav>
+	</div>
+	</div>
+</div>
+<script>
+	var SearchUrl="{:U('Index/RecentNews','','')}";
+	</script>
+	<link rel="stylesheet" href="__PUBLIC__/CSS/Tabletpl.css" />
+	<script type="text/javascript" src='__PUBLIC__/JS/LiSt.js'></script>
+	<script type="text/javascript" src='__PUBLIC__/JS/News.js'></script>
+</body>
+</html>

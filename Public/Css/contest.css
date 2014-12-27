@@ -1,0 +1,96 @@
+table.altrowstable {
+	font-size:15px;
+	color:#557eb2;
+	border-color: #000;
+	border-collapse: collapse;
+}
+table.altrowstable th {
+    text-align: center;
+    background-color:#fff; 
+	border-width: 3px;
+	border-style: solid;
+	border-color: #e0dede;
+}
+table.altrowstable tr {
+    text-align: center;
+    height: 40px;
+}
+table.altrowstable td {
+	border-width: 3px;
+	border-style: solid;
+	border-color: #e0dede;
+    color: #000;
+    text-align: center;
+}
+.oddrowcolor{
+	background-color:#fff;
+}
+.oddcolcolor{
+    background-color:#d3d4d6;
+}
+.evenrowcolor{
+	background-color:#d3f3e3;
+}
+.evencolcolor{
+    background-color:#abd0fb;
+}
+.id{
+    width: 10%;
+}
+.name{
+    width: 50%;
+}
+.time{
+    width: 15%;
+}
+.length{
+    width: 15%;
+}
+.type{
+    width: 10%;
+}
+.status{
+    width: 10%;
+}
+.firstrow{
+    background-color:#f87373;
+}
+.firstcol{
+    background-color:#fc9f9f;
+}
+.secondrow{
+    background-color:#f9be69;
+}
+.secondcol{
+    background-color:#ffcfa4;
+}
+.register{
+    color: #ff7800;
+}
+.register:hover{
+    cursor: pointer;
+    color: blue;
+}
+.public{
+    color: #e20707;
+}
+.private{
+    color: #38bc0a;
+}
+.contest:hover{
+    cursor: pointer;
+    color: #54e7da;
+}
+.notstart{
+    text-align: center;
+    color:#557eb2;
+}
+#submitinfo:hover{
+    cursor: pointer;
+}
+#submitinfo{
+    background: 
+}
+.container{
+    padding: 0px;
+}

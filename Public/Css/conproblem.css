@@ -1,0 +1,148 @@
+.contestname{
+    text-align: center;
+    color: white;
+    margin: 0;
+}
+.nav-tabs {
+  border-bottom: 3px solid #2C70B4;
+}
+.nav-tabs > li > a {
+    margin-right: 2px;
+    line-height: 1.42857143;
+    border: 1px solid transparent;
+    border-radius: 10px 10px 0 0;
+}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+    color: #fff;
+    cursor: default;
+    background-color: #2C70B4;
+    border: 1px solid #ddd;
+    border-bottom-color: transparent;
+}
+.problembar {
+    height: 70px;
+    width: 100%;
+    display: -moz-box;
+    -moz-box-pack: center;
+    -moz-box-align: center;
+    display: -webkit-box;
+    -webkit-box-pack: center;
+    -webkit-box-align: center;
+    display: box;
+    box-pack: center;
+    box-align: center;
+}
+.problembox{
+    padding: 1px;
+    background: rgb(144,144,144);
+    -moz-box-shadow:  -2px 2px 5px rgba(0,0,0,.8) inset;
+    -webkit-box-shadow:  -2px 2px 5px rgba(0,0,0,.8) inset;
+    box-shadow:  -2px 2px 5px rgba(0,0,0,.8) inset;
+}
+.problem > a{
+    font: 30px arial;
+    color: rgba(0,0,0,.8);
+}
+.problem{
+    float: left;
+    text-align: center;
+    font-size: x-large;
+    width: 50px;
+    height: 33px;
+} 
+.problem a:hover{
+    color: #ddd;
+    text-decoration: none;
+}
+.problemname{
+    text-align: center;
+    color: rgb(44,112,180);
+}
+.btnn{
+    font-weight: bold;
+    color: rgb(58,88,126);
+    border: 1px solid black;
+    //border-radius: 0;
+    background: transparent;
+}
+#back1{
+	position:absolute;
+	left:50%;
+	top:32%;
+	background:rgb(238,238,238);
+}
+.problemTag{
+	height:60px;
+	margin:2px 8px 0 8px;
+	line-height:60px;
+	font:24px arial;
+	color:#ffffff;
+	padding-left:10px;
+	background:rgb(44,112,180);
+}
+.problemTagtext{
+    
+	font:16px arial;
+	line-height:48px;
+	margin:0 8px 25px 8px;
+	background: #fff;
+}
+#inoutable{
+	width:100%;
+	text-align:center;
+	line-height:40px;
+}
+#inoutable th{
+	height:40px;
+	border:1px solid #e0dede;
+	text-align:center;
+	font:18px arial;
+}
+#inoutable td{
+	border:1px solid #e0dede;
+}
+#submitba{
+	background-color:rgb(50,101,162);
+	font:24px arial;
+	padding:12px 25px;
+	color:#ffffff;
+	margin-bottom:20px;
+	box-shadow:-5px 5px 3px rgb(97,97,97);
+}
+#SubmitContent{
+	width:600px;
+	left:50%;
+	margin-left:-300px;
+}
+.CodeMirror-scroll{
+	border:1px solid rgb(161,161,161) ;
+	width:560px;
+	height:300px;
+	margin:0 20px;
+	cursor:text;
+}
+#btnsgroup{
+	margin:20px 20px;
+}
+.CodeMirror {
+  height: auto;
+}
+.CodeMirror-vscrollbar{
+	overflow:hidden;
+}
+.CodeMirror-gutters{
+	background-color:#ffffff;
+}
+#submitbarBtnbar{
+	margin-left:60%;
+}
+.SubmitbarBtn{
+	font:18px arial;
+	color:#ffffff;
+	border:0px;
+	margin:10px 10px;
+}
+#CancelBtn{
+	background:rgb(179,179,179);
+}
+

@@ -1,0 +1,120 @@
+<include file="../../Index/Index/Top" title="Contest"/>
+    <div id="mainlist" class="container">
+	<div class="container-fluid" style="background-color:#787676;">
+	<div class="navbar-form">
+		<div class="input-group navbar-left searchbar" style="margin-bottom: 10px;">
+          <input type="text" id="searchinfo" class="form-control" placeholder="enter any words">
+         <span class="input-group-addon" id="submitinfo">Search</span>
+         </div>
+	   <nav class="navbar-right">
+	      <ul class="pagination" style="margin: 0">
+	       <?php $rear=$nowpage-1;
+                    $str='';
+                    if($info!=null)$str='&info='.$info;
+                    if($nowpage==1) echo'<li class="disabled"><a href="#">&laquo;</a></li>';
+                    else echo'<li><a href="'.U('Index/index','','').'?p='.$rear.$str.'">&laquo;</a></li>'
+            ?>
+            <?php
+                $str='';
+                    if($info!=null)$str='&info='.$info;
+                if($pages<=5)
+                {
+                    for($i=1;$i<=$pages;$i++)
+                    {
+                        if($i==$nowpage)echo'<li class="active"><a href="#">'.$i.'</a></li>';
+                        else echo'<li><a href="'.U('Index/index','','').'?p='.$i.$str.'">'.$i.'</a></li>';   
+                    }
+                }
+                else
+                {
+                    if($nowpage<=3)
+                    for($i=1;$i<=5;$i++)
+                    {
+                        if($i==$nowpage)echo'<li class="active"><a href="#">'.$i.'</a></li>';
+                        else echo'<li><a href="'.U('Index/index','','').'?p='.$i.$str.'">'.$i.'</a></li>';  
+                    }
+                    else if($pages-$nowpage<=2)
+                    for($i=$pages-4;$i<=$pages;$i++)
+                    {
+                        if($i==$nowpage)echo'<li class="active"><a href="#">'.$i.'</a></li>';
+                        else echo'<li><a href="'.U('Index/index','','').'?p='.$i.$str.'">'.$i.'</a></li>';   
+                    }
+                    else for($i=$nowpage-2;$i<=$nowpage+2;$i++)
+                    {
+                        if($i==$nowpage)echo'<li class="active"><a href="#">'.$i.'</a></li>';
+                        else echo'<li><a href="'.U('Index/index','','').'?p='.$i.$str.'">'.$i.'</a></li>';  
+                    }
+                }
+            ?>
+            <?php $front=$nowpage+1;
+                    $str='';
+                    if($info!=null)$str='&info='.$info;
+                    if($nowpage==$pages) echo'<li class="disabled"><a href="#">&raquo;</a></li>';
+                    else echo'<li><a href="'.U('Index/index','','').'?p='.$front.$str.'">&raquo;</a></li>'
+            ?>
+	      </ul>
+	    </nav>
+	</div>
+	</div>
+        <table class="altrowstable" id="alternatecolor">
+            <tr>
+                <th class="id">CID</th>
+                <th class="name">Name</th>
+                <th class="time">Time</th>
+                <th class="length">Length</th>
+                <th class="type">Type</th>
+                <th class="status">Status</th>
+            </tr>
+            <foreach name="data" item="v">
+            <tr <?php if($v['level']=='2') echo' style="background-color:#fc9f9f " '; else if($v['level']=='1') echo' class="secondrow" style="background-color:#ffcfa4" '; ?> >
+                <td <?php if($v['level']=='2') echo' style="background-color:#f87373 " '; else if($v['level']=='1') echo' class="secondrow" style="background-color:#f9be69" '; ?> >{$v.cid}</td>
+                <td class="contest" onclick="fun({$v.cid})"><a href="javascript:void(0)">{$v.name}</a></td>
+                <td>{$v.start_time}</td>
+                <td>{$v.length}</td>
+                <td>
+                    <span <?php if($v['private']=='0')echo' class="public" ';else if($v['private']=='1')echo'class="register" onclick="register('.$v["cid"].')" class="register"';else echo'class="private"'; ?> >
+                        <?php if($v['private']=='0')echo'Public';else if($v['private']=='1')echo'<a href="javascript:void(0)">Register</a>';else echo'Private'; ?>
+                    </span>
+                    <?php if($v['private']=='1') echo' <a href="'.U("Contest/Index/register", '', '').'?cid='.$v['cid'].'"><span class="glyphicon glyphicon-search"></span></a>'; ?>
+                </td>
+                <td>{$v.sta}</td>
+            </tr>
+            </foreach>
+        </table>
+        </div>
+       <div class="modal fade bs-example-modal-sm" id="myModal" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-describedby="Inform" aria-hidden="false">
+        <div class="modal-dialog modal-sm">
+        <div class="modal-content" id="modalcontext">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">
+                <span aria-hidden="true">×</span>
+                <span class="sr-only">Close</span>
+            </button>
+            <h4 class="modal-title" id="myLargeModalLabel">Message</h4>
+        </div>
+        <h4 class="modal-body" id="modalmessage">
+        ....
+        </h4>
+        <div class="modal-body" id="passwordbar" style="display: none">
+            <input type="password" class="form-control" id="passwordvalue" placeholder="Password">
+        </div>
+        <div class="modal-body" id="passwordsend" style="display: none">
+            <button type="button" class="btn btn-primary" id="passwordbtn">Submit</button>
+        </div>
+        </div>
+      </div>
+    </div>
+         <script type="text/ecmascript">
+            var formUrl = '{:U("Contest/Index/form", '', '')}';
+            var handleUrl = '{:U("Contest/Index/problemlist", '', '')}';
+            var registerUrl='{:U("Contest/Index/register", '', '')}';
+            var indexUrl='{:U("Contest/Index/index", '', '')}';
+            var countUrl ='{:U("Contest/Index/newscount", '', '')}';
+            var cid="{$contestinfo[0]['cid']}";
+        </script>
+        <script src="__PUBLIC__/Js/jquery-1.10.2.min.js"></script>
+        <script src="__PUBLIC__/Js/onload.js"></script>
+        <script src="__PUBLIC__/Js/jquery-ui.min.js"></script>
+        <link href="__PUBLIC__/Css/contest.css" rel="stylesheet">
+
+<include file="../../Index/Index/Bottom" />
